@@ -1,0 +1,39 @@
+import "../globals.css";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { Footer } from "@/components/footer";
+import { NavbarMobile } from "@/components/navbar/navBarMobile";
+import { Poiret_One } from "next/font/google";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+
+const poiret = Poiret_One({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poiret", // optional for Tailwind integration
+});
+
+export default async function RootLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  return (
+    <html lang={locale}>
+      <body className={`${poiret.className} bg-[var(--main-bg)]`}>
+        <NextIntlClientProvider>
+          <NavbarMobile />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

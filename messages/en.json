@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "title": "Luxury Rio de Janeiro Wedding Planner",
+    "paragraph": "With over 20 years of experience in high-end events, Leco Biagioni is an office focused on luxury weddings.\nWe are based in Rio de Janeiro, the marvelous city of Brazil! Led by Leco, our team specializes in diving into each couple's dream and making it come true.\nOur know-how allows us to customize every detail of your big day.\nAlways meeting your priorities, expectations, and desires.\nWe work strictly within your budget to avoid surprises with unexpected costs throughout the planning.",
+    "servicesTitle": "OUR SERVICES",
+    "services": {
+      "planning": "PLANNING",
+      "design": "Design",
+      "production": "PRODUCTION",
+      "coordination": "Coordination"
+    },
+    "cta": "Contact Us"
+  },
+
+  "about": {
+    "who": "WHO WE ARE",
+    "familyTitle": "THE FAMILY",
+    "familyText": "We have professionals fluent in English, Spanish, and French, which allows us to also serve couples from outside Brazil. With over a thousand events held, we have developed a strong relationship with the best suppliers in the market — enabling us to offer a personalized curation aligned with the essence of each couple.",
+    "philosophyTitle1": "THE PHILOSOPHY",
+    "philosophyTitle2": "OF LECO BIAGIONI",
+    "philosophyText": "With more than 20 years of experience in high-end events, the Leco Biagioni Office specializes in luxury weddings. Based in Rio de Janeiro — the marvelous city — we transform each couple’s dream into reality with full attention to detail. Our know-how allows us to customize every step of your big day, respecting priorities, expectations, and budget, without surprises along the way. With a solid trajectory, we are ready to conduct Catholic, Jewish, Interfaith, LGBTQIAPN+, Destination Weddings, and Dual Nationality ceremonies. We love what we do — and build real bonds with those who trust us to live this unique moment. Count on us to take care of your big day!",
+    "backgroundText1": "EXCELLENCE",
+    "backgroundText2": "SAVOIR FAIRE"
+  },
+
+  "portfolio": {
+    "title": "OUR PORTFOLIO",
+    "discover": "DISCOVER",
+    "options": [
+      {
+        "title": "F & J",
+        "subtitle": "WEDDING FELIPE & JUAN",
+        "description": "Beyond the Dream"
+      },
+      {
+        "title": "I V Y",
+        "subtitle": "IVY 18 YEARS MOULIN ROUGE",
+        "description": "Ivy's 18th Birthday - Rio de Janeiro"
+      },
+      {
+        "title": "M & M",
+        "subtitle": "CHRIST THE REDEEMER WEDDING",
+        "description": "Wedding Mariana & Mario - Christ the Redeemer"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "TESTIMONIALS",
+    "items": [
+      {
+        "quote": "Leco Biagioni’s team was exactly the partner we hoped for in a wedding planner — especially in the face of the extra challenges of our wedding.",
+        "author": "Rhaynna & Lucas"
+      }
+    ],
+    "prev": "Previous",
+    "next": "Next"
+  },
+
+  "tendency": {
+    "title": "TRENDS IN 2025",
+    "button": "VISIT OUR BLOG"
+  },
+
+  "contact": {
+    "title": "CONTACT US",
+    "description": "Feel free to get in touch with us. We’ll be happy to send you a copy of our presentation with all the details and pricing.",
+    "messageButton": "LEAVE A MESSAGE",
+    "whatsappButton": "CHAT ON WHATSAPP"
+  },
+
+  "portfolioList": {
+    "felipe": {
+      "title": "FELIPE & JUAN",
+      "subtitle": "WEDDING FELIPE & JUAN - ALÉM DO SONHO"
+    },
+    "anaPaulaLucas": {
+      "title": "ANA PAULA & LUCAS",
+      "subtitle": "WEDDING ANA PAULA & LUCAS - VILLA RISO"
+    },
+    "ivy": {
+      "title": "IVY",
+      "subtitle": "IVY'S 18TH BIRTHDAY"
+    },
+    "erika": {
+      "title": "ÉRIKA JANUZA",
+      "subtitle": "ÉRIKA JANUZA - 40TH BIRTHDAY"
+    },
+    "beatriz": {
+      "title": "BEATRIZ - 15 YEARS",
+      "subtitle": "BEATRIZ - 15TH BIRTHDAY - GOLDEN GREEN"
+    },
+    "camilaPedro": {
+      "title": "CAMILA & PEDRO",
+      "subtitle": "WEDDING CAMILA & PEDRO - HARAS PEDRA DO ELEFANTE"
+    },
+    "camilaJoao": {
+      "title": "CAMILA & JOÃO",
+      "subtitle": "WEDDING CAMILA & JOÃO - JUIZ DE FORA"
+    },
+    "camilleErick": {
+      "title": "CAMILLE & ERICK",
+      "subtitle": "WEDDING CAMILLE & ERICK - LAGO BURITI"
+    },
+    "larissaChicri": {
+      "title": "LARISSA & CHICRI",
+      "subtitle": "WEDDING LARISSA & CHICRI - ITANHANGÁ GOLF CLUB"
+    },
+    "louhayneCharles": {
+      "title": "LOUHAYNE & CHARLES",
+      "subtitle": "WEDDING LOUHAYNE & CHARLES - SÃO FRANCISCO DE PAULA CHURCH"
+    },
+    "marianaMario": {
+      "title": "MARIANA & MARIO",
+      "subtitle": "WEDDING MARIANA & MARIO - CHRIST THE REDEEMER"
+    },
+    "rhayannaLucas": {
+      "title": "RHAYANNA & LUCAS",
+      "subtitle": "WEDDING RHAYANNA & LUCAS - OLYMPIC GOLF CLUB"
+    },
+    "grazyRyen": {
+      "title": "GRAZY & RYEN",
+      "subtitle": "WEDDING GRAZY & RYEN - CASA DO ALTO"
+    },
+    "janusaLuiz": {
+      "title": "JANUSA & LUIZ",
+      "subtitle": "WEDDING JANUSA & LUIZ - SOLAR REAL"
+    },
+    "joanaGabriel": {
+      "title": "JOANA & GABRIEL",
+      "subtitle": "WEDDING JOANA & GABRIEL - XIAN RIO"
+    }
+  },
+
+  "portfolioPage": {
+    "heroTitle": "OUR CREATIONS",
+    "sectionTitle": "MOMENTS THAT STAY in our memories forever!",
+    "sectionText": "In addition to being a wedding planner and event coordinator, Leco Biagioni also designs wedding decor — offering a complete and integrated experience for your big day. At our studio, you’ll find everything you need in one place. We bring to life rustic, tropical, modern, classic, luxurious, and themed productions, always with a refined eye and attention to detail.\n\nDiscover some of our projects and get inspired."
+  },
+
+  "contactCard": {
+    "headline": "Leco Biagioni turns dreams into unforgettable moments!",
+    "description": "We present the best solutions to make your dream come true. Creating the perfect wedding requires time and experience in the event industry. Planning and organization are essential to make your day unforgettable. Beyond hiring vendors, organizing a wedding involves many steps.",
+    "messageButton": "Send Message",
+    "whatsappButton": "Chat on WhatsApp"
+  },
+
+  "portfolioCard": {
+    "discover": "DISCOVER"
+  }
+}

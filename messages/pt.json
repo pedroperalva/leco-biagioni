@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "title": "Luxury Rio de Janeiro Wedding Planner",
+    "paragraph": "Com mais de 20 anos de experiência em eventos de alto padrão, Leco Biagioni é um escritório com foco em casamentos de luxo.\nSomos do Rio de Janeiro, a cidade maravilhosa do Brasil! Sob o comando de Leco, nosso time é especializado em mergulhar no sonho de cada casal e torná-lo realidade.\nNosso know how permite customizar cada detalhe do seu grande dia.\nAtendendo sempre suas prioridades, expectativas e desejos.\nTrabalhamos com o seu orçamento de forma rigorosa, para evitar surpresas com gastos inesperados no decorrer da organização.",
+    "servicesTitle": "NOSSOS SERVIÇOS",
+    "services": {
+      "planning": "PLANNING",
+      "design": "Design",
+      "production": "PRODUCTION",
+      "coordination": "Coordination"
+    },
+    "cta": "Fale Conosco"
+  },
+
+  "about": {
+    "who": "QUEM SOMOS",
+    "familyTitle": "A FAMÍLIA",
+    "familyText": "Contamos com profissionais fluentes em inglês, espanhol e francês, o que nos permite atender também casais de fora do Brasil. Com mais de mil eventos realizados, desenvolvemos uma relação sólida com os melhores fornecedores do mercado — o que nos permite fazer uma curadoria personalizada e alinhada à essência de cada casal.",
+    "philosophyTitle1": "A FILOSOFIA",
+    "philosophyTitle2": "DE LECO BIAGIONI",
+    "philosophyText": "Com mais de 20 anos de experiência em eventos de alto padrão, o Escritório Leco Biagioni é especializado em casamentos de luxo. Sediados no Rio de Janeiro — a cidade maravilhosa — transformamos o sonho de cada casal em realidade, com atenção total aos detalhes. Nosso know-how nos permite personalizar cada etapa do seu grande dia, respeitando prioridades, expectativas e orçamento, sem surpresas ao longo do processo. Com uma trajetória sólida, estamos prontos para realizar cerimônias Católicas, Judaicas, Inter-religiosas, LGBTQIAPN+, Destination Weddings e celebrações de Dupla Nacionalidade. Amamos o que fazemos — e construímos laços reais com quem confiou em nós para viver esse momento único. Conte conosco para cuidar do seu grande dia!",
+    "backgroundText1": "EXCELLENCE",
+    "backgroundText2": "SAVOIR FAIRE"
+  },
+
+  "portfolio": {
+    "title": "NOSSO PORTFÓLIO",
+    "discover": "DESCUBRA",
+    "options": [
+      {
+        "title": "F & J",
+        "subtitle": "CASAMENTO FELIPE & JUAN",
+        "description": "Além do Sonho",
+        "folder": "casamento-felipe-e-juan-alem-do-sonho"
+      },
+      {
+        "title": "I V Y",
+        "subtitle": "IVY 18 ANOS MOULIN ROUGE",
+        "description": "Aniversário Ivy 18 anos - Rio de Janeiro",
+        "folder": "casamento-felipe-e-juan-alem-do-sonho"
+      },
+      {
+        "title": "M & M",
+        "subtitle": "CASAMENTO CRISTO REDENTOR",
+        "description": "Casamento Mariana & Mario - Cristo Redentor",
+        "folder": "casamento-felipe-e-juan-alem-do-sonho"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "DEPOIMENTOS",
+    "items": [
+      {
+        "quote": "A equipe do Leco Biagioni foi exatamente a parceira que esperávamos em um wedding planner — especialmente diante dos desafios extras de um casamento.",
+        "author": "Rhaynna & Lucas"
+      }
+    ],
+    "prev": "Anterior",
+    "next": "Próximo"
+  },
+
+  "tendency": {
+    "title": "TENDÊNCIAS EM 2025",
+    "button": "ACESSE NOSSO BLOG"
+  },
+
+  "contact": {
+    "title": "CONTATE-NOS",
+    "description": "Fique à vontade para entrar em contato conosco. Teremos prazer em enviar uma cópia da nossa apresentação com todos os detalhes e valores.",
+    "messageButton": "DEIXE UMA MENSAGEM",
+    "whatsappButton": "FALE NO WHATSAPP"
+  },
+
+  "portfolioList": {
+    "felipe": {
+      "title": "FELIPE & JUAN",
+      "subtitle": "CASAMENTO FELIPE & JUAN - ALÉM DO SONHO"
+    },
+    "anaPaulaLucas": {
+      "title": "ANA PAULA & LUCAS",
+      "subtitle": "CASAMENTO ANA PAULA & LUCAS - VILLA RISO"
+    },
+    "ivy": {
+      "title": "IVY",
+      "subtitle": "ANIVERSÁRIO IVY - 18 ANOS"
+    },
+    "erika": {
+      "title": "ÉRIKA JANUZA",
+      "subtitle": "ANIVERSÁRIO ÉRIKA JANUZA - 40 ANOS"
+    },
+    "beatriz": {
+      "title": "BEATRIZ - 15 ANOS",
+      "subtitle": "ANIVERSÁRIO BEATRIZ - 15 ANOS - GOLDEN GREEN"
+    },
+    "camilaPedro": {
+      "title": "CAMILA & PEDRO",
+      "subtitle": "CASAMENTO CAMILA & PEDRO - HARAS PEDRA DO ELEFANTE"
+    },
+    "camilaJoao": {
+      "title": "CAMILA & JOÃO",
+      "subtitle": "CASAMENTO CAMILA & JOÃO - JUIZ DE FORA"
+    },
+    "camilleErick": {
+      "title": "CAMILLE & ERICK",
+      "subtitle": "CASAMENTO CAMILLE & ERICK - LAGO BURITI"
+    },
+    "larissaChicri": {
+      "title": "LARISSA & CHICRI",
+      "subtitle": "CASAMENTO LARISSA & CHICRI - ITANHANGÁ GOLF CLUB"
+    },
+    "louhayneCharles": {
+      "title": "LOUHAYNE & CHARLES",
+      "subtitle": "CASAMENTO LOUHAYNE & CHARLES - IGREJA SÃO FRANCISCO DE PAULA"
+    },
+    "marianaMario": {
+      "title": "MARIANA & MARIO",
+      "subtitle": "CASAMENTO MARIANA & MARIO - CRISTO REDENTOR"
+    },
+    "rhayannaLucas": {
+      "title": "RHAYANNA & LUCAS",
+      "subtitle": "CASAMENTO RHAYANNA & LUCAS - GOLFE OLÍMPICO"
+    },
+    "grazyRyen": {
+      "title": "GRAZY & RYEN",
+      "subtitle": "CASAMENTO GRAZY & RYEN - CASA DO ALTO"
+    },
+    "janusaLuiz": {
+      "title": "JANUSA & LUIZ",
+      "subtitle": "CASAMENTO JANUSA & LUIZ - SOLAR REAL"
+    },
+    "joanaGabriel": {
+      "title": "JOANA & GABRIEL",
+      "subtitle": "CASAMENTO JOANA & GABRIEL - XIAN RIO"
+    }
+  },
+
+  "portfolioPage": {
+    "heroTitle": "NOSSAS REALIZAÇÕES",
+    "sectionTitle": "MOMENTOS QUE FICAM Em nossas memórias para sempre!",
+    "sectionText": "Além de assessor e cerimonialista, Leco Biagioni também assina projetos de decoração — oferecendo uma experiência completa e integrada para o seu casamento. Com nosso escritório, você encontra tudo o que precisa em um só lugar. Realizamos produções rústicas, tropicais, modernas, clássicas, luxuosas e temáticas, sempre com olhar apurado e atenção aos detalhes.\n\nConheça alguns dos nossos projetos e inspire-se."
+  },
+
+  "contactCard": {
+    "headline": "Leco Biagioni transforma sonhos em momentos inesquecíveis!",
+    "description": "Apresentamos as melhores soluções para realizar o seu sonho. Realizar um Casamento perfeito requer tempo e experiência no mercado de festas. Planejamento e organização é fundamental para tornar o seu dia inesquecível. Muito além de contratar fornecedores, organizar um casamento envolve muitas etapas.",
+    "messageButton": "Enviar Mensagem",
+    "whatsappButton": "Falar no WhatsApp"
+  },
+
+  "portfolioCard": {
+    "discover": "DESCUBRA"
+  }
+}
