@@ -4,18 +4,14 @@ import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { getPortfolioList } from "@/app/utils/portfolioList";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
-export default function PortfolioPage({
-  params,
-}: {
-  params: {
-    slug: string;
-  };
-}) {
+export default function PortfolioPage() {
   const t = useTranslations();
   const portfolioList = getPortfolioList(t);
   const [arquivos, setArquivos] = useState<any[]>([]);
-  const slug = params.slug;
+  const params = useParams();
+  const slug = params?.slug;
   const portfolioItem = portfolioList.find((item) => item.folder === slug);
 
   useEffect(() => {
