@@ -1,7 +1,8 @@
-// "use client";
+"use client";
 
-// import { SectionLists } from "@/components/sections/sectionLists";
+//import { SectionLists } from "@/components/sections/sectionLists";
 
-// export default function Celebridades() {
-//   return <SectionLists />;
-// }
+export default function Celebridades() {
+  // return <SectionLists />;
+  return null;
+}
