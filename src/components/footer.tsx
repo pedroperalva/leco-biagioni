@@ -9,7 +9,7 @@ export function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-10 md:place-items-center md:w-[90%] text-[#7A7A7A]">
         <div className="flex md:flex-row flex-col justify-center ">
           <img
-            src="/logo-black.png"
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/logos/marca-1-cor-fundo-escuro.png`}
             alt="logo"
             className="w-[200px] self-center md:self-start"
           />

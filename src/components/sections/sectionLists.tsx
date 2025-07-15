@@ -22,7 +22,7 @@ export function SectionLists() {
     <main className="min-h-screen w-full pb-8 pt-[100px] space-y-8 flex flex-col items-center">
       <div className="relative w-full h-[400px] overflow-hidden">
         <img
-          src={"/home/noiva.jpg"}
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/card-cristo-asse-e.jpg`}
           alt="Hero"
           className="w-full h-full object-cover"
         />

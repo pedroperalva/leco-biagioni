@@ -27,7 +27,7 @@ export function SectionTestimonials() {
         </div>
         <div className="flex flex-col justify-between items-center">
           <img
-            src="/testimonials/lucas2.jpg"
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/call-to-selling-2.jpg`}
             alt=""
             className="w-[200px] object-cover h-[300px] self-start"
           />
@@ -63,7 +63,7 @@ export function SectionTestimonials() {
             “{testimonial.quote}”
           </p>
           <img
-            src="/testimonials/lucas1.png"
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.webp`}
             alt=""
             className="max-w-[300px] object-cover h-[300px]"
           />

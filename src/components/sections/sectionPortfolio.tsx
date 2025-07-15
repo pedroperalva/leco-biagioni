@@ -16,9 +16,9 @@ export function SectionPortfolio() {
   }[];
 
   const images = [
-    "/portfolio/felipe/primary.jpg",
-    "/portfolio/birthday/primary.jpg",
-    "/portfolio/marina/primary.jpg",
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-felipe-juan40.jpg`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-ivy-aniver-21.jpg`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-mariana-mario06.jpg`,
   ];
 
   return (

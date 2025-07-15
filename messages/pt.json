@@ -150,5 +150,29 @@
 
   "portfolioCard": {
     "discover": "DESCUBRA"
+  },
+
+  "services": {
+    "title": "NOSSOS SERVIÇOS",
+    "messageButton": "deixe uma mensagem",
+    "whatsappButton": "fale no whatsapp",
+    "items": {
+      "assessoria": {
+        "title": "assessoria",
+        "description": "Nossa assessoria começa do zero, acompanhando o casal desde a escolha do local até a execução do grande dia. No primeiro encontro, realizamos uma Reunião de Briefing para entender o perfil, expectativas e prioridades do casal. A partir disso, elaboramos uma planilha estimativa de investimento e agendamos visitas aos locais sugeridos. Com a definição do espaço, criamos um cronograma completo da organização. Durante todo o processo, realizamos reuniões mensais de acompanhamento, sempre de forma leve e prazerosa — para que o casal aproveite cada etapa até o tão esperado “sim”."
+      },
+      "destination": {
+        "title": "destination wedding",
+        "description": "Especialistas em Destination Wedding no Rio de Janeiro. Temos ampla experiência em atender casais estrangeiros que sonham em celebrar seu casamento no Brasil, oferecendo segurança total — desde o controle financeiro até a escolha dos espaços ideais. Criamos experiências completas para os noivos e seus convidados, com receptivo em aeroportos, transfers, passeios turísticos e sugestões de hospedagem através das nossas parcerias com hotéis renomados. Nosso time é fluente em inglês, espanhol e francês, garantindo uma comunicação clara em todas as etapas, tornando seu casamento no Rio uma experiência inesquecível."
+      },
+      "celebridades": {
+        "title": "celebridades",
+        "description": "A assinatura por trás de eventos estrelados. Com mais de 20 anos de atuação, o Escritório Leco Biagioni tornou-se referência entre artistas, cantores, modelos e personalidades brasileiras. Somos a escolha de quem busca exclusividade, excelência e discrição na realização de eventos inesquecíveis."
+      },
+      "cerimonial": {
+        "title": "cerimonial",
+        "description": "No dia do casamento, cada detalhe é planejado com precisão. Realizamos uma reunião prévia de roteiro, cronograma e cerimonial para garantir que tudo ocorra conforme o planejado. Nossa equipe atua em setores estratégicos, coordenando fornecedores, supervisionando a montagem (que pode levar dias) e acompanhando o casal durante todo o evento. Os noivos contam com Personal Bride e Personal Groom, e os pais recebem “sombras” para terem total conforto. No grande dia, nossa equipe conta com pelo menos 10 assistentes, assegurando a perfeita execução de cada etapa."
+      }
+    }
   }
 }

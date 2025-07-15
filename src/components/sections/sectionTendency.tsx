@@ -11,7 +11,11 @@ export function SectionTendency() {
       <h1 className="text-5xl text-black self-center text-center">
         {t("title")}
       </h1>
-      <img src="/tendency/tendency.jpg" alt="" className="w-[870px] my-16" />
+      <img
+        src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/tendencias/vest_color_fuzzy_01.jpg`}
+        alt=""
+        className="w-[870px] my-16"
+      />
       <MainButton>{t("button")}</MainButton>
     </section>
   );

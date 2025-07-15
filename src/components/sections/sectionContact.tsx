@@ -24,7 +24,11 @@ export function SectionContact() {
           </div>
         </div>
         <div className="h-[500px]">
-          <img src="/contact/img_contato.png" alt="" className="w-[300px]" />
+          <img
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/img_contato.png`}
+            alt=""
+            className="w-[300px]"
+          />
         </div>
       </div>
       <ContactForm open={open} setOpen={setOpen} />

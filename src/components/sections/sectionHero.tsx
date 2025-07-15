@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { MainButton } from "@/components/buttons/mainButton";
+import { Link } from "@/i18n/navigation";
 
 export function SectionHero() {
   const t = useTranslations("hero");
@@ -10,7 +11,9 @@ export function SectionHero() {
     <section className="w-full" id="hero">
       <div
         className="w-full bg-cover bg-no-repeat bg-[center_top] h-[675px]"
-        style={{ backgroundImage: "url('/home/noiva.jpg')" }}
+        style={{
+          backgroundImage: `url('${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/noiva.jpg')`,
+        }}
       ></div>
 
       <div className="w-full flex justify-center my-32 px-6">
@@ -31,9 +34,9 @@ export function SectionHero() {
 
       <div className="w-full flex lg:flex-row flex-col justify-between relative">
         <img
-          src="/home/services1.png"
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/2024-10-19%20-%20FIL06373.jpg`}
           alt=""
-          className="mt-16 absolute lg:static w-[100px] md:w-[200px] lg:w-auto top-[-150px] right-0 lg:top-auto lg:right-auto"
+          className="mt-16 absolute lg:static w-[100px] md:w-[200px] lg:w-[389px] top-[-150px] right-0 lg:top-auto lg:right-auto"
         />
 
         <div className="text-center flex flex-col items-center justify-center">
@@ -46,11 +49,13 @@ export function SectionHero() {
           <p className="text-3xl lg:text-5xl mb-8">
             {t("services.coordination")}
           </p>
-          <MainButton>{t("cta")}</MainButton>
+          <Link href={`/servicos`}>
+            <MainButton>{t("cta")}</MainButton>
+          </Link>
         </div>
 
         <img
-          src="/home/services2.png"
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/Lena-Rainer-Wedding-0230-768x1024.webp.png`}
           alt=""
           className="mt-8 lg:mt-0 mb-16 w-[120px] md:w-[200px] lg:w-auto"
         />

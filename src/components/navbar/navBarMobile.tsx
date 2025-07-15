@@ -49,7 +49,7 @@ export function NavbarMobile() {
   return (
     <header className="flex items-center justify-between pr-6 h-[100px] bg-black fixed top-0 left-0 w-full z-50 font-semibold">
       <img
-        src="/logo.png"
+        src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/logos/_marca-preferencial.png`}
         alt="lecobiagioni"
         className="cursor-pointer w-[250px]"
         onClick={(e) => handleScroll(e as any, "#hero")}

@@ -23,7 +23,11 @@ export function SectionAboutUs() {
       </div>
 
       <div className="text-black w-full relative flex md:flex-row flex-col justify-center items-center gap-4 md:gap-10 md:mt-16 my-24 md:mb-48">
-        <img src="/about/profile.png" alt="" className="w-[300px]" />
+        <img
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/491873604_678467821466311_6535318492228136338_n.jpg`}
+          alt=""
+          className="w-[300px] h-[400px] object-cover"
+        />
 
         <div className="max-w-[300px] md:max-w-[380px]">
           <h1 className="text-5xl font-bold">{t("philosophyTitle1")}</h1>
