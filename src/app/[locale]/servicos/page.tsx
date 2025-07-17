@@ -2,10 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import { servicesList } from "@/app/utils/servicesList";
-import { MainButton } from "@/components/buttons/mainButton";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { useState } from "react";
-import { Contact } from "lucide-react";
 import { ContactButtons } from "@/components/buttons/contactButtons";
 
 export default function Servicos() {
