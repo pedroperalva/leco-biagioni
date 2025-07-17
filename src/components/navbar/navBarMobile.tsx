@@ -12,6 +12,7 @@ import {
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { IoMenu } from "react-icons/io5";
+import { SelectFlag } from "../selects/SelectFlag";
 
 export function NavbarMobile() {
   const scrollItems = menuItems.filter((item) => item.href.startsWith("#"));
@@ -54,50 +55,53 @@ export function NavbarMobile() {
         className="cursor-pointer w-[250px]"
         onClick={(e) => handleScroll(e as any, "#hero")}
       />
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <IoMenu className="text-3xl cursor-pointer text-[var(--gold)]" />
-        </DropdownMenuTrigger>
-        <DropdownMenuContent
-          className="w-56 bg-black text-white border-none"
-          align="start"
-        >
-          <DropdownMenuLabel>
-            <a href="#hero">
-              <img src="/logo.png" alt="lecobiagioni" className="w-[250px]" />
+      <div className="flex gap-4 items-center">
+        <SelectFlag />
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <IoMenu className="text-3xl cursor-pointer text-[var(--gold)]" />
+          </DropdownMenuTrigger>
+          <DropdownMenuContent
+            className="w-56 bg-black text-white border-none"
+            align="start"
+          >
+            <DropdownMenuLabel>
+              <a href="#hero">
+                <img src="/logo.png" alt="lecobiagioni" className="w-[250px]" />
+              </a>
+            </DropdownMenuLabel>
+
+            <DropdownMenuGroup>
+              {scrollItems.map((item) => (
+                <DropdownMenuItem key={item.label}>
+                  <a
+                    href={item.href}
+                    onClick={(e) => handleScroll(e, item.href)}
+                    className="flex justify-between w-full font-bold"
+                  >
+                    {item.label}
+                  </a>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuGroup>
+
+            {/* <div className="my-2 border-t border-[var(--gold)] mx-2" />
+
+          <DropdownMenuGroup>
+          {routeItems.map((item) => (
+            <DropdownMenuItem key={item.label}>
+            <a
+            href={`/${locale + "/" + item.href}`}
+            className="flex justify-between w-full font-bold"
+            >
+            {item.label}
             </a>
-          </DropdownMenuLabel>
-
-          <DropdownMenuGroup>
-            {scrollItems.map((item) => (
-              <DropdownMenuItem key={item.label}>
-                <a
-                  href={item.href}
-                  onClick={(e) => handleScroll(e, item.href)}
-                  className="flex justify-between w-full font-bold"
-                >
-                  {item.label}
-                </a>
-              </DropdownMenuItem>
+            </DropdownMenuItem>
             ))}
-          </DropdownMenuGroup>
-
-          {/* <div className="my-2 border-t border-[var(--gold)] mx-2" />
-
-          <DropdownMenuGroup>
-            {routeItems.map((item) => (
-              <DropdownMenuItem key={item.label}>
-                <a
-                  href={`/${locale + "/" + item.href}`}
-                  className="flex justify-between w-full font-bold"
-                >
-                  {item.label}
-                </a>
-              </DropdownMenuItem>
-            ))}
-          </DropdownMenuGroup> */}
-        </DropdownMenuContent>
-      </DropdownMenu>
+            </DropdownMenuGroup> */}
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
     </header>
   );
 }
