@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { ContactForm } from "../forms/ContactForm";
 import { MainButton } from "../buttons/mainButton";
+import { ContactButtons } from "../buttons/contactButtons";
 
 export function ConsultancyCard({
   title,
@@ -23,12 +24,7 @@ export function ConsultancyCard({
       <p className="font-bold">{description}</p>
       <img src={image} alt={title} className="w-full h-full object-cover" />
       <p className="font-bold text-sm">{info}</p>
-      <div className="flex items-center gap-4">
-        <MainButton onClick={() => setOpen(true)}>
-          {t("messageButton")}
-        </MainButton>
-        <MainButton className="bg-[#75ff7a]">{t("whatsappButton")}</MainButton>
-      </div>
+      <ContactButtons setOpen={setOpen} />
       <ContactForm open={open} setOpen={setOpen} />
     </div>
   );

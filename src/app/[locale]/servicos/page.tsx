@@ -5,6 +5,8 @@ import { servicesList } from "@/app/utils/servicesList";
 import { MainButton } from "@/components/buttons/mainButton";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { useState } from "react";
+import { Contact } from "lucide-react";
+import { ContactButtons } from "@/components/buttons/contactButtons";
 
 export default function Servicos() {
   const t = useTranslations("services");
@@ -48,14 +50,7 @@ export default function Servicos() {
 
               <div className="h-full flex flex-col items-center md:items-start text-md font-bold justify-between p-1 lg:max-w-[500px] md:max-w-[400px] gap-4">
                 <p className="text-gray-700">{description}</p>
-                <div className="flex items-center gap-4">
-                  <MainButton onClick={() => setOpen(true)}>
-                    {t("messageButton")}
-                  </MainButton>
-                  <MainButton className="bg-[#75ff7a]">
-                    {t("whatsappButton")}
-                  </MainButton>
-                </div>
+                <ContactButtons setOpen={setOpen} />
               </div>
             </div>
           );

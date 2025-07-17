@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { MainButton } from "../buttons/mainButton";
 import { ContactForm } from "../forms/ContactForm";
 import { useState } from "react";
+import { ContactButtons } from "../buttons/contactButtons";
 
 export function ContactCard() {
   const [open, setOpen] = useState(false);
@@ -20,14 +21,7 @@ export function ContactCard() {
           {t("headline")}
         </h3>
         <p className="font-bold text-center">{t("description")}</p>
-        <div className="flex items-center gap-4">
-          <MainButton onClick={() => setOpen(true)}>
-            {t("messageButton")}
-          </MainButton>
-          <MainButton className="bg-[#75ff7a]">
-            {t("whatsappButton")}
-          </MainButton>
-        </div>
+        <ContactButtons setOpen={setOpen} />
         <ContactForm open={open} setOpen={setOpen} />
       </div>
     </div>

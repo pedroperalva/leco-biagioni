@@ -1,9 +1,9 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { MainButton } from "../buttons/mainButton";
 import { useState } from "react";
 import { ContactForm } from "../forms/ContactForm";
+import { ContactButtons } from "../buttons/contactButtons";
 
 export function SectionContact() {
   const t = useTranslations("contact");
@@ -14,14 +14,7 @@ export function SectionContact() {
         <div className="space-y-6 flex flex-col w-[320px]">
           <h1 className="text-5xl text-black">{t("title")}</h1>
           <p className="text-xs font-semibold">{t("description")}</p>
-          <div className="flex items-center gap-4">
-            <MainButton onClick={() => setOpen(true)}>
-              {t("messageButton")}
-            </MainButton>
-            <MainButton className="bg-[#75ff7a]">
-              {t("whatsappButton")}
-            </MainButton>
-          </div>
+          <ContactButtons setOpen={setOpen} />
         </div>
         <div className="h-[500px]">
           <img

@@ -15,7 +15,7 @@ export function SectionTestimonials() {
       {/* Desktop */}
       <div className="w-full md:flex justify-between max-w-[870px] self-center h-[400px] hidden">
         <img
-          src="/testimonials/lucas1.png"
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.jpeg`}
           alt=""
           className="w-[200px] object-cover h-[300px] self-end"
         />
@@ -63,7 +63,7 @@ export function SectionTestimonials() {
             “{testimonial.quote}”
           </p>
           <img
-            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.webp`}
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.jpeg`}
             alt=""
             className="max-w-[300px] object-cover h-[300px]"
           />

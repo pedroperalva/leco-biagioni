@@ -140,9 +140,7 @@
 
   "contactCard": {
     "headline": "Leco Biagioni turns dreams into unforgettable moments!",
-    "description": "We present the best solutions to make your dream come true. Creating the perfect wedding requires time and experience in the event industry. Planning and organization are essential to make your day unforgettable. Beyond hiring vendors, organizing a wedding involves many steps.",
-    "messageButton": "Send Message",
-    "whatsappButton": "Chat on WhatsApp"
+    "description": "We present the best solutions to make your dream come true. Creating the perfect wedding requires time and experience in the event industry. Planning and organization are essential to make your day unforgettable. Beyond hiring vendors, organizing a wedding involves many steps."
   },
 
   "portfolioCard": {
@@ -151,8 +149,6 @@
 
   "services": {
     "title": "OUR SERVICES",
-    "messageButton": "leave a message",
-    "whatsappButton": "talk on whatsapp",
     "items": {
       "assessoria": {
         "title": "wedding planning",

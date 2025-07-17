@@ -143,9 +143,7 @@
 
   "contactCard": {
     "headline": "Leco Biagioni transforma sonhos em momentos inesquecíveis!",
-    "description": "Apresentamos as melhores soluções para realizar o seu sonho. Realizar um Casamento perfeito requer tempo e experiência no mercado de festas. Planejamento e organização é fundamental para tornar o seu dia inesquecível. Muito além de contratar fornecedores, organizar um casamento envolve muitas etapas.",
-    "messageButton": "Enviar Mensagem",
-    "whatsappButton": "Falar no WhatsApp"
+    "description": "Apresentamos as melhores soluções para realizar o seu sonho. Realizar um Casamento perfeito requer tempo e experiência no mercado de festas. Planejamento e organização é fundamental para tornar o seu dia inesquecível. Muito além de contratar fornecedores, organizar um casamento envolve muitas etapas."
   },
 
   "portfolioCard": {
@@ -154,8 +152,6 @@
 
   "services": {
     "title": "NOSSOS SERVIÇOS",
-    "messageButton": "deixe uma mensagem",
-    "whatsappButton": "fale no whatsapp",
     "items": {
       "assessoria": {
         "title": "assessoria",
