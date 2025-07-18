@@ -11,8 +11,15 @@ const poiret = Poiret_One({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-poiret", // optional for Tailwind integration
+  variable: "--font-poiret",
 });
+
+export const metadata = {
+  title: "Leco Biagioni",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 
 export default async function RootLayout({
   children,
