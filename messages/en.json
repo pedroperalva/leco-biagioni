@@ -23,7 +23,7 @@
       "production": "PRODUCTION",
       "coordination": "Coordination"
     },
-    "cta": "Contact Us"
+    "cta": "See More"
   },
 
   "about": {
@@ -38,7 +38,7 @@
   },
 
   "portfolio": {
-    "title": "OUR PORTFOLIO",
+    "title": "OUR ACHIEVEMENTS",
     "discover": "DISCOVER",
     "options": [
       {
@@ -153,7 +153,7 @@
   },
 
   "contactCard": {
-    "headline": "Leco Biagioni turns dreams into unforgettable moments!",
+    "headline": "turns dreams into unforgettable moments!",
     "description": "We present the best solutions to make your dream come true. Creating the perfect wedding requires time and experience in the event industry. Planning and organization are essential to make your day unforgettable. Beyond hiring vendors, organizing a wedding involves many steps."
   },
 
