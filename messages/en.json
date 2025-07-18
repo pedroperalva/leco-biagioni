@@ -220,5 +220,15 @@
         "text": "Soft yellow, mustard, vibrant yellow, and citrine yellow are just a few of the tones you can embrace if you choose yellow as one of your wedding colors. This warm and welcoming color is perfect for cheerful summer and spring weddings."
       }
     }
+  },
+
+  "contactForm": {
+    "title": "Contact Us",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "submit": "Send",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully!"
   }
 }

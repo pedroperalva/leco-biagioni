@@ -223,5 +223,15 @@
         "text": "Amarelo suave, mostarda, amarelo vibrante e amarelo citrino são apenas algumas das tonalidades que você poderá se jogar de cabeça ao escolher o amarelo para ser uma das cores do seu casamento. Essa cor quente e acolhedora é perfeita para casamentos alegres no verão e na primavera."
       }
     }
+  },
+
+  "contactForm": {
+    "title": "Fale Conosco",
+    "namePlaceholder": "Seu nome",
+    "emailPlaceholder": "Seu e-mail",
+    "messagePlaceholder": "Sua mensagem",
+    "submit": "Enviar",
+    "sending": "Enviando...",
+    "successMessage": "Mensagem enviada com sucesso!"
   }
 }

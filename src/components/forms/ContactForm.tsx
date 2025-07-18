@@ -4,6 +4,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { MainButton } from "../buttons/mainButton";
+import { useTranslations } from "next-intl";
 
 export function ContactForm({
   open,
@@ -12,6 +13,7 @@ export function ContactForm({
   open: boolean;
   setOpen: (open: boolean) => void;
 }) {
+  const t = useTranslations("contactForm");
   const formRef = useRef<HTMLFormElement | null>(null);
   const [isSending, setIsSending] = useState(false);
   const [sent, setSent] = useState(false);
@@ -53,25 +55,25 @@ export function ContactForm({
           onSubmit={handleSubmit}
           className="space-y-4 text-black font-bold"
         >
-          <h2 className="text-xl font-bold mb-2 text-center">Fale Conosco</h2>
+          <h2 className="text-xl font-bold mb-2 text-center">{t("title")}</h2>
 
           <input
             name="name"
             required
-            placeholder="Seu nome"
+            placeholder={t("namePlaceholder")}
             className="w-full p-2 bg-[var(--gold-light)] border border-black"
           />
           <input
             name="email"
             type="email"
             required
-            placeholder="Seu e-mail"
+            placeholder={t("emailPlaceholder")}
             className="w-full p-2 bg-[var(--gold-light)] border border-black"
           />
           <textarea
             name="message"
             required
-            placeholder="Sua mensagem"
+            placeholder={t("messagePlaceholder")}
             className="w-full p-2 bg-[var(--gold-light)] border border-black h-32 resize-none"
           />
 
@@ -79,12 +81,12 @@ export function ContactForm({
             type="submit"
             className="bg-green-500 hover:bg-green-600 w-full p-2 font-semibold transition"
           >
-            {isSending ? "Enviando..." : "Enviar"}
+            {isSending ? t("sending") : t("submit")}
           </MainButton>
 
           {sent && (
             <p className="text-green-400 text-center font-medium">
-              Mensagem enviada com sucesso!
+              {t("successMessage")}
             </p>
           )}
         </form>
