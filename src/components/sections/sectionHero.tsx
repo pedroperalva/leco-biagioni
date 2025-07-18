@@ -39,7 +39,10 @@ export function SectionHero() {
           className="mt-16 absolute lg:static w-[100px] md:w-[200px] lg:w-[389px] top-[-150px] right-0 lg:top-auto lg:right-auto"
         />
 
-        <div className="text-center flex flex-col items-center justify-center">
+        <div
+          className="text-center flex flex-col items-center justify-center"
+          id="servicos"
+        >
           <h3 className="font-semibold text-sm mb-8">{t("servicesTitle")}</h3>
           <p className="text-3xl lg:text-5xl mb-2">{t("services.planning")}</p>
           <p className="text-3xl lg:text-5xl mb-2">{t("services.design")}</p>

@@ -13,13 +13,14 @@ import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { IoMenu } from "react-icons/io5";
 import { SelectFlag } from "../selects/SelectFlag";
+import { useTranslations } from "next-intl";
 
 export function NavbarMobile() {
   const scrollItems = menuItems.filter((item) => item.href.startsWith("#"));
-  // const routeItems = menuItems.filter((item) => !item.href.startsWith("#"));
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const t = useTranslations("menu");
 
   const scrollToHash = (hash: string) => {
     const element = document.querySelector(hash);
@@ -36,7 +37,6 @@ export function NavbarMobile() {
     href: string
   ) => {
     e.preventDefault();
-
     const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
 
     if (isHome) {
@@ -66,9 +66,11 @@ export function NavbarMobile() {
             align="start"
           >
             <DropdownMenuLabel>
-              <a href="#hero">
-                <img src="/logo.png" alt="lecobiagioni" className="w-[250px]" />
-              </a>
+              <img
+                src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/logos/_marca-preferencial.png`}
+                alt="lecobiagioni"
+                className="w-[250px]"
+              />
             </DropdownMenuLabel>
 
             <DropdownMenuGroup>
@@ -79,26 +81,11 @@ export function NavbarMobile() {
                     onClick={(e) => handleScroll(e, item.href)}
                     className="flex justify-between w-full font-bold"
                   >
-                    {item.label}
+                    {t(item.label)}
                   </a>
                 </DropdownMenuItem>
               ))}
             </DropdownMenuGroup>
-
-            {/* <div className="my-2 border-t border-[var(--gold)] mx-2" />
-
-          <DropdownMenuGroup>
-          {routeItems.map((item) => (
-            <DropdownMenuItem key={item.label}>
-            <a
-            href={`/${locale + "/" + item.href}`}
-            className="flex justify-between w-full font-bold"
-            >
-            {item.label}
-            </a>
-            </DropdownMenuItem>
-            ))}
-            </DropdownMenuGroup> */}
           </DropdownMenuContent>
         </DropdownMenu>
       </div>

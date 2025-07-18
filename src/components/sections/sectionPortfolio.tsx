@@ -22,7 +22,7 @@ export function SectionPortfolio() {
   ];
 
   return (
-    <section className="w-full flex flex-col" id="portfolio">
+    <section className="w-full flex flex-col" id="realizacoes">
       <h1 className="text-5xl text-black my-16 self-center text-center">
         {t("title")}
       </h1>

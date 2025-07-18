@@ -4,6 +4,15 @@
     "en": "Inglês"
   },
 
+  "menu": {
+    "services": "SERVIÇOS",
+    "about": "QUEM SOMOS",
+    "portfolio": "REALIZAÇÕES",
+    "testimonials": "DEPOIMENTOS",
+    "tendency": "TENDÊNCIAS",
+    "contact": "CONTATO"
+  },
+
   "hero": {
     "title": "Luxury Rio de Janeiro Wedding Planner",
     "paragraph": "Com mais de 20 anos de experiência em eventos de alto padrão, Leco Biagioni é um escritório com foco em casamentos de luxo.\nSomos do Rio de Janeiro, a cidade maravilhosa do Brasil! Sob o comando de Leco, nosso time é especializado em mergulhar no sonho de cada casal e torná-lo realidade.\nNosso know how permite customizar cada detalhe do seu grande dia.\nAtendendo sempre suas prioridades, expectativas e desejos.\nTrabalhamos com o seu orçamento de forma rigorosa, para evitar surpresas com gastos inesperados no decorrer da organização.",
@@ -173,6 +182,45 @@
       "cerimonial": {
         "title": "cerimonial",
         "description": "No dia do casamento, cada detalhe é planejado com precisão. Realizamos uma reunião prévia de roteiro, cronograma e cerimonial para garantir que tudo ocorra conforme o planejado. Nossa equipe atua em setores estratégicos, coordenando fornecedores, supervisionando a montagem (que pode levar dias) e acompanhando o casal durante todo o evento. Os noivos contam com Personal Bride e Personal Groom, e os pais recebem “sombras” para terem total conforto. No grande dia, nossa equipe conta com pelo menos 10 assistentes, assegurando a perfeita execução de cada etapa."
+      }
+    }
+  },
+
+  "blog": {
+    "header": {
+      "title": "Acompanhe nosso Blog!",
+      "subtitle1": "As cores para",
+      "subtitle2": "Casamento em 2025",
+      "intro1": "As cores para casamentos em 2024 são uma inspiração para você que ainda não definiu uma direção de combinação de cores para o seu grande dia. Elas podem ser usadas como protagonistas com bastante destaque em um projeto de decoração, ou apenas compor junto à outras tonalidades dentro de uma paleta de cores de forma mais sutil e pontual.",
+      "intro2": "É importante salientar que elas são apenas sugestões para você conhecer, pesquisar mais e quem sabe incluir na sua festa de casamento. No entanto, gostamos de frisar sempre que estas referências não devem te engessar ou causar qualquer sensação de que “tem que ter”, ou de obrigatoriedade. Vocês devem usá-las somente se de fato faz sentido pra vocês como casal. Casamento não é sobre imposições, e sim sobre sonhos e muita personalidade.",
+      "peachFuzzTitle": "Peach Fuzz, será a cor de 2025.",
+      "peachFuzzText": "Obviamente a cor eleita para o ano 2024, o Peach Fuzz promete estar ainda mais presente nas paletas de cores dos casamentos neste novo ano. Este tom de pêssego suave e aveludado é muito democrático e perfeito para eventos que buscam uma atmosfera mais suave e romântica.",
+      "peachFuzzPhotoCredit": "Foto: Ariana Del Mundo"
+    },
+    "colors": {
+      "pink": {
+        "title": "Rosa",
+        "text": "2023 sem dúvidas foi o ano do rosa! Além da grande influência da estética barbiecore, a cor do ano 2023, Viva Magenta, também foi uma das responsáveis por vermos muitas tonalidades de rosa em muitas decorações e também no mercado da moda. Para 2024 podemos esperar que o rosa continue em alta, inclusive em tonalidades mais suaves como o Rosa Blush."
+      },
+      "blue": {
+        "title": "Azul Cobalto",
+        "text": "O azul é e sempre será uma das cores queridinhas para casamentos. Em 2024, a aposta é que as tonalidades de azul apareçam de forma mais vívida e marcante, como o azul-cobalto e até o azul-royal, que prometem trazer muita presença em qualquer projeto de decoração."
+      },
+      "lime": {
+        "title": "Verde Lima",
+        "text": "O verde-lima é ousado e nunca passa despercebido. Escolha perfeita para as noivas fashionistas, esse tom de neon é perfeito para festas que seguem uma pegada moderna e maximalista, que buscam uma atmosfera vibrante e super alto astral."
+      },
+      "red": {
+        "title": "Vermelho",
+        "text": "E parece que o vermelho voltará a cair nas graças das noivas e noivos em 2024. Essa cor quente e clássica que remete a paixão, nunca saiu de moda, mas parece ter caído um pouco no esquecimento nos últimos anos. Espere ver o vermelho não somente nas decorações, mas também nos buquês, batom das noivas e até em suas unhas!"
+      },
+      "lilac": {
+        "title": "Lilás",
+        "text": "Tons frios e suaves como o lavanda já marcaram presença em 2023, e agora, prometem ganhar ainda mais força no novo ano. Destaque especial para as tonalidades de lilás e azul pervinca, que possibilitam uma enorme gama de combinações com tons mais escuros e claros."
+      },
+      "yellow": {
+        "title": "Amarelo",
+        "text": "Amarelo suave, mostarda, amarelo vibrante e amarelo citrino são apenas algumas das tonalidades que você poderá se jogar de cabeça ao escolher o amarelo para ser uma das cores do seu casamento. Essa cor quente e acolhedora é perfeita para casamentos alegres no verão e na primavera."
       }
     }
   }

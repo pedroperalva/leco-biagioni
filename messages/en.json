@@ -4,6 +4,15 @@
     "en": "English"
   },
 
+  "menu": {
+    "services": "SERVICES",
+    "about": "ABOUT US",
+    "portfolio": "PORTFOLIO",
+    "testimonials": "TESTIMONIALS",
+    "tendency": "TRENDS",
+    "contact": "CONTACT"
+  },
+
   "hero": {
     "title": "Luxury Rio de Janeiro Wedding Planner",
     "paragraph": "With over 20 years of experience in high-end events, Leco Biagioni is an office focused on luxury weddings.\nWe are based in Rio de Janeiro, the marvelous city of Brazil! Led by Leco, our team specializes in diving into each couple's dream and making it come true.\nOur know-how allows us to customize every detail of your big day.\nAlways meeting your priorities, expectations, and desires.\nWe work strictly within your budget to avoid surprises with unexpected costs throughout the planning.",
@@ -170,6 +179,45 @@
       "cerimonial": {
         "title": "ceremony",
         "description": "On the wedding day, every detail is carefully planned. We hold a prior meeting to define the script, timeline, and ceremony in detail to ensure everything goes as expected. Our team works in strategic areas, coordinating vendors, supervising the setup (which may take days), and accompanying the couple throughout the event. The bride and groom have their own personal assistants, and the parents are assigned 'shadows' to provide full comfort. On the big day, our team includes at least 10 assistants, ensuring flawless execution of every step."
+      }
+    }
+  },
+
+  "blog": {
+    "header": {
+      "title": "Follow our Blog!",
+      "subtitle1": "The Wedding",
+      "subtitle2": "Colors for 2025",
+      "intro1": "The wedding colors for 2024 are a great inspiration if you haven't decided on a color combination for your big day. They can be used as leading tones with strong presence in your decor project, or subtly blend into a broader color palette.",
+      "intro2": "It's important to highlight that these are only suggestions for you to explore, research, and maybe include in your wedding. However, we always like to remind you that these references shouldn't box you in or make you feel like you 'have to' use them. They should only be used if they truly make sense for you as a couple. Weddings are not about rules—they're about dreams and personality.",
+      "peachFuzzTitle": "Peach Fuzz is the color of 2025.",
+      "peachFuzzText": "Naturally, the chosen color for 2024, Peach Fuzz, is expected to be even more prominent in wedding palettes this coming year. This soft, velvety peach tone is very versatile and perfect for events seeking a more romantic and gentle atmosphere.",
+      "peachFuzzPhotoCredit": "Photo: Ariana Del Mundo"
+    },
+    "colors": {
+      "pink": {
+        "title": "Pink",
+        "text": "2023 was undoubtedly the year of pink! In addition to the major influence of the barbiecore aesthetic, the 2023 color of the year, Viva Magenta, was also responsible for the abundance of pink tones in decor and the fashion market. In 2024, we can expect pink to remain in the spotlight, especially in softer shades like Blush Pink."
+      },
+      "blue": {
+        "title": "Cobalt Blue",
+        "text": "Blue has always been a favorite color for weddings. In 2024, the trend is for bolder, more vivid shades to stand out, such as cobalt blue and even royal blue, which promise to bring a strong presence to any decoration project."
+      },
+      "lime": {
+        "title": "Lime Green",
+        "text": "Lime green is bold and never goes unnoticed. A perfect choice for fashion-forward brides, this neon tone is ideal for modern and maximalist weddings that aim for a vibrant and energetic atmosphere."
+      },
+      "red": {
+        "title": "Red",
+        "text": "It seems red will win over brides and grooms once again in 2024. This warm and classic color, which symbolizes passion, never really went out of style, but it has been a bit overlooked in recent years. Expect to see red not only in decor, but also in bouquets, bridal lipstick, and even nails!"
+      },
+      "lilac": {
+        "title": "Lilac",
+        "text": "Cool and soft tones like lavender were already present in 2023, and now they are expected to grow even stronger in the new year. Special attention goes to lilac and periwinkle shades, which allow for a wide range of combinations with both light and dark tones."
+      },
+      "yellow": {
+        "title": "Yellow",
+        "text": "Soft yellow, mustard, vibrant yellow, and citrine yellow are just a few of the tones you can embrace if you choose yellow as one of your wedding colors. This warm and welcoming color is perfect for cheerful summer and spring weddings."
       }
     }
   }
