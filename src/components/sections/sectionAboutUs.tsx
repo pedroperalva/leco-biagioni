@@ -7,7 +7,9 @@ export function SectionAboutUs() {
 
   return (
     <section className="w-full flex flex-col" id="about">
-      <h1 className="text-5xl text-black my-16 self-center">{t("who")}</h1>
+      <h1 className="text-5xl text-black my-16 self-center text-center">
+        {t("who")}
+      </h1>
 
       <div
         className="w-full h-[600px] bg-cover bg-no-repeat bg-[center_40%] mb-8 flex justify-center md:justify-end items-end px-16 pb-6 relative"

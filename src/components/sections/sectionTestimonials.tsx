@@ -10,7 +10,9 @@ export function SectionTestimonials() {
 
   return (
     <section className="w-full flex flex-col" id="testimonials">
-      <h1 className="text-5xl text-black my-16 self-center">{t("title")}</h1>
+      <h1 className="text-5xl text-black my-16 self-center text-center">
+        {t("title")}
+      </h1>
 
       {/* Desktop */}
       <div className="w-full md:flex justify-between max-w-[870px] self-center h-[400px] hidden">

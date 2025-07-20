@@ -10,7 +10,7 @@ export function SectionHero() {
   return (
     <section className="w-full" id="hero">
       <div
-        className="w-full bg-cover bg-no-repeat bg-[center_top] h-[675px]"
+        className="w-full bg-cover bg-no-repeat md:bg-[center_top] bg-[center_right] h-[675px]"
         style={{
           backgroundImage: `url('${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/noiva.jpg')`,
         }}
@@ -32,11 +32,11 @@ export function SectionHero() {
         </div>
       </div>
 
-      <div className="w-full flex lg:flex-row flex-col justify-between relative">
+      <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-8 lg:gap-0">
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/2024-10-19%20-%20FIL06373.jpg`}
           alt=""
-          className="mt-16 absolute lg:static w-[100px] md:w-[200px] lg:w-[389px] top-[-150px] right-0 lg:top-auto lg:right-auto"
+          className="w-[120px] md:w-[200px] lg:w-[389px]"
         />
 
         <div
@@ -57,10 +57,11 @@ export function SectionHero() {
           </Link>
         </div>
 
+        {/* Imagem da direita */}
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/Lena-Rainer-Wedding-0230-768x1024.webp.png`}
           alt=""
-          className="mt-8 lg:mt-0 mb-16 w-[120px] md:w-[200px] lg:w-auto"
+          className="w-[120px] md:w-[200px] lg:w-auto"
         />
       </div>
     </section>
