@@ -38,7 +38,7 @@ export default function Servicos() {
                 <img
                   src={service.image}
                   alt={title}
-                  className="h-[400px] object-cover w-full"
+                  className="h-[400px] object-cover object-[center_top] w-full"
                 />
                 <div className="absolute inset-0 bg-black/40"></div>
                 <h2 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-5xl text-white px-4 py-2 uppercase z-10 text-center">
