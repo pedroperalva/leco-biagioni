@@ -42,22 +42,22 @@
     "discover": "DISCOVER",
     "options": [
       {
+        "title": "L & C",
+        "subtitle": "CASAMENTO LOUHAYNE & CHARLES",
+        "description": "São Francisco de Paula Church",
+        "folder": "casamento-louhayne-e-charles---igreja-sao-francisco-de-paula"
+      },
+      {
         "title": "F & J",
-        "subtitle": "WEDDING FELIPE & JUAN",
+        "subtitle": "CASAMENTO FELIPE & JUAN",
         "description": "Beyond the Dream",
         "folder": "casamento-felipe-e-juan-alem-do-sonho"
       },
       {
-        "title": "I V Y",
-        "subtitle": "IVY 18 YEARS MOULIN ROUGE",
-        "description": "Ivy's 18th Birthday - Rio de Janeiro",
-        "folder": "aniversario-ivy-18-anos---rio-de-janeiro"
-      },
-      {
-        "title": "M & M",
-        "subtitle": "CHRIST THE REDEEMER WEDDING",
-        "description": "Wedding Mariana & Mario - Christ the Redeemer",
-        "folder": "casamento-mariana-&-mario-cristo-redentor"
+        "title": "S & R",
+        "subtitle": "CASAMENTO SARAH & RODRIGO",
+        "description": "Santa Teresa MGallery",
+        "folder": "Sarah-e-Rodrigo-Santa-Teresa-MGallery"
       }
     ]
   },
