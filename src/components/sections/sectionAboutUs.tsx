@@ -28,7 +28,7 @@ export function SectionAboutUs() {
 
       <div className="text-black w-full relative flex md:flex-row flex-col justify-center items-center gap-4 md:gap-10 md:mt-16 my-24 md:mb-48">
         <img
-          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/491873604_678467821466311_6535318492228136338_n.jpg`}
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/foto-leco.jpg`}
           alt=""
           className="w-[300px] h-[400px] object-cover"
         />

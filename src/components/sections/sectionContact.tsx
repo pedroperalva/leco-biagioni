@@ -18,7 +18,7 @@ export function SectionContact() {
         </div>
         <div className="h-[500px]">
           <img
-            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/img_contato.png`}
+            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/img_contato.png`}
             alt=""
             className="w-[300px]"
           />

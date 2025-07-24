@@ -34,7 +34,7 @@ export function SectionHero() {
 
       <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-8 lg:gap-0">
         <img
-          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/2024-10-19%20-%20FIL06373.jpg`}
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/service-home1.jpg`}
           alt=""
           className="w-[120px] md:w-[200px] lg:w-[389px]"
         />
@@ -59,9 +59,9 @@ export function SectionHero() {
 
         {/* Imagem da direita */}
         <img
-          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/Lena-Rainer-Wedding-0230-768x1024.webp.png`}
+          src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/service-home2.jpg`}
           alt=""
-          className="w-[120px] md:w-[200px] lg:w-auto"
+          className="w-[120px] md:w-[200px] lg:w-[389px]"
         />
       </div>
     </section>
