@@ -12,7 +12,7 @@ export function ContactCard() {
   return (
     <div className="lg:h-[500px] lg:w-full max-w-[1200px] border-[10px] md:border-[50px] border-[#ebeded] flex lg:flex-row flex-col justify-between mx-4">
       <img
-        src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/card-cristo-asse-e.jpg`}
+        src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/banner-caixa.JPG`}
         alt="Contact"
         className="w-full h-full object-cover lg:w-1/2"
       />

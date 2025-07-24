@@ -9,7 +9,7 @@
     "about": "ABOUT ME",
     "portfolio": "PORTFOLIO",
     "testimonials": "TESTIMONIALS",
-    "tendency": "TRENDS",
+    "tendency": "TIPS",
     "contact": "CONTACT"
   },
 
@@ -30,7 +30,7 @@
     "who": "WHO I AM",
     "familyTitle": "THE FAMILY",
     "familyText": "We have professionals fluent in English, Spanish, and French, which allows us to also serve couples from outside Brazil. With over a thousand events held, we have developed a strong relationship with the best suppliers in the market — enabling us to offer a personalized curation aligned with the essence of each couple.",
-    "philosophyTitle1": "THE EXPERIENCE",
+    "philosophyTitle1": "THE PHILOSOPHY",
     "philosophyTitle2": "OF LECO BIAGIONI",
     "philosophyText": "With more than 20 years of experience in high-end events, the Leco Biagioni Office specializes in luxury weddings. Based in Rio de Janeiro — the marvelous city — we transform each couple’s dream into reality with full attention to detail. Our know-how allows us to customize every step of your big day, respecting priorities, expectations, and budget, without surprises along the way. With a solid trajectory, we are ready to conduct Catholic, Jewish, Interfaith, LGBTQIAPN+, Destination Weddings, and Dual Nationality ceremonies. We love what we do — and build real bonds with those who trust us to live this unique moment. Count on us to take care of your big day!",
     "backgroundText1": "EXCELLENCE",
@@ -75,7 +75,7 @@
   },
 
   "tendency": {
-    "title": "TRENDS IN 2025",
+    "title": "TIPS",
     "button": "VISIT OUR TIPS"
   },
 

@@ -16,9 +16,9 @@ export function SectionPortfolio() {
   }[];
 
   const images = [
-    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-felipe-juan40.jpg`,
-    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/imgs-home/portf-home2.jpg`,
-    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-mariana-mario06.jpg`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6826.JPG`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-felipe-e-juan-alem-do-sonho/0714_0714-casamento-felipe-e-juan-alem-do-sonho-guaratiba-rj-13-10-2024.jpg`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Sarah-e-Rodrigo-Santa-Teresa-MGallery%20/sarah-rodrigo-wed-87.jpg`,
   ];
 
   return (

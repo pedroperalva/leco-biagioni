@@ -14,7 +14,7 @@ export function SectionAboutUs() {
       <div
         className="w-full h-[600px] bg-cover bg-no-repeat bg-[center_40%] mb-8 flex justify-center md:justify-end items-end px-16 pb-6 relative"
         style={{
-          backgroundImage: `url('${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/Jaluza_Luiz_(Solar_Real)_PREVIEW_122_resized.jpg`,
+          backgroundImage: `url('${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/banner-quemsomos.jpg`,
         }}
       >
         <div

@@ -9,7 +9,7 @@
     "about": "QUEM SOU",
     "portfolio": "REALIZAÇÕES",
     "testimonials": "DEPOIMENTOS",
-    "tendency": "TENDÊNCIAS",
+    "tendency": "DICAS",
     "contact": "CONTATO"
   },
 
@@ -30,7 +30,7 @@
     "who": "QUEM SOU",
     "familyTitle": "A FAMÍLIA",
     "familyText": "Contamos com profissionais fluentes em inglês, espanhol e francês, o que nos permite atender também casais de fora do Brasil. Com mais de mil eventos realizados, desenvolvemos uma relação sólida com os melhores fornecedores do mercado — o que nos permite fazer uma curadoria personalizada e alinhada à essência de cada casal.",
-    "philosophyTitle1": "A EXPERIÊNCIA",
+    "philosophyTitle1": "A FILOSOFIA",
     "philosophyTitle2": "DE LECO BIAGIONI",
     "philosophyText": "Com mais de 20 anos de experiência em eventos de alto padrão, o Escritório Leco Biagioni é especializado em casamentos de luxo. Sediados no Rio de Janeiro — a cidade maravilhosa — transformamos o sonho de cada casal em realidade, com atenção total aos detalhes. Nosso know-how nos permite personalizar cada etapa do seu grande dia, respeitando prioridades, expectativas e orçamento, sem surpresas ao longo do processo. Com uma trajetória sólida, estamos prontos para realizar cerimônias Católicas, Judaicas, Inter-religiosas, LGBTQIAPN+, Destination Weddings e celebrações de Dupla Nacionalidade. Amamos o que fazemos — e construímos laços reais com quem confiou em nós para viver esse momento único. Conte conosco para cuidar do seu grande dia!",
     "backgroundText1": "EXCELLENCE",
@@ -42,22 +42,22 @@
     "discover": "DESCUBRA",
     "options": [
       {
+        "title": "L & C",
+        "subtitle": "CASAMENTO LOUHAYNE & CHARLES",
+        "description": "Casamento Louhayne e Charles - Igreja São Francisco de Paul",
+        "folder": "casamento-louhayne-e-charles---igreja-sao-francisco-de-paula"
+      },
+      {
         "title": "F & J",
         "subtitle": "CASAMENTO FELIPE & JUAN",
         "description": "Além do Sonho",
         "folder": "casamento-felipe-e-juan-alem-do-sonho"
       },
       {
-        "title": "I V Y",
-        "subtitle": "IVY 18 ANOS MOULIN ROUGE",
-        "description": "Aniversário Ivy 18 anos - Rio de Janeiro",
-        "folder": "aniversario-ivy-18-anos---rio-de-janeiro"
-      },
-      {
-        "title": "M & M",
-        "subtitle": "CASAMENTO CRISTO REDENTOR",
-        "description": "Casamento Mariana & Mario - Cristo Redentor",
-        "folder": "casamento-mariana-&-mario-cristo-redentor"
+        "title": "S & R",
+        "subtitle": "CASAMENTO SARAH & RODRIGO",
+        "description": "⁠Casamento Sarah e Rodrigo - Santa Teresa MGallery",
+        "folder": "Sarah-e-Rodrigo-Santa-Teresa-MGallery"
       }
     ]
   },
@@ -75,7 +75,7 @@
   },
 
   "tendency": {
-    "title": "TENDÊNCIAS EM 2025",
+    "title": "DICAS",
     "button": "ACESSE NOSSAS DICAS"
   },
 
