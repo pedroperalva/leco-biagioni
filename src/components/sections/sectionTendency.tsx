@@ -17,7 +17,7 @@ export function SectionTendency() {
         alt=""
         className="w-[870px] my-16"
       />
-      <Link href={`${locale}/blog`}>
+      <Link href={`${locale}/dicas`}>
         <MainButton>{t("button")}</MainButton>
       </Link>
     </section>

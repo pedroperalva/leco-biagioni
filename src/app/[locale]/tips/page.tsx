@@ -4,8 +4,8 @@ import { tendencyList } from "@/app/utils/tendencyList";
 import { ContactCard } from "@/components/cards/contactCard";
 import { useTranslations } from "next-intl";
 
-export default function Blog() {
-  const t = useTranslations("blog");
+export default function Dicas() {
+  const t = useTranslations("tips");
 
   return (
     <main className="min-h-screen w-full px-4 pt-[100px] pb-[200px] flex flex-col items-center text-black space-y-12">

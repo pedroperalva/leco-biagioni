@@ -6,7 +6,7 @@
 
   "menu": {
     "services": "SERVIÇOS",
-    "about": "QUEM SOMOS",
+    "about": "QUEM SOU",
     "portfolio": "REALIZAÇÕES",
     "testimonials": "DEPOIMENTOS",
     "tendency": "TENDÊNCIAS",
@@ -27,10 +27,10 @@
   },
 
   "about": {
-    "who": "QUEM SOMOS",
+    "who": "QUEM SOU",
     "familyTitle": "A FAMÍLIA",
     "familyText": "Contamos com profissionais fluentes em inglês, espanhol e francês, o que nos permite atender também casais de fora do Brasil. Com mais de mil eventos realizados, desenvolvemos uma relação sólida com os melhores fornecedores do mercado — o que nos permite fazer uma curadoria personalizada e alinhada à essência de cada casal.",
-    "philosophyTitle1": "A FILOSOFIA",
+    "philosophyTitle1": "A EXPERIÊNCIA",
     "philosophyTitle2": "DE LECO BIAGIONI",
     "philosophyText": "Com mais de 20 anos de experiência em eventos de alto padrão, o Escritório Leco Biagioni é especializado em casamentos de luxo. Sediados no Rio de Janeiro — a cidade maravilhosa — transformamos o sonho de cada casal em realidade, com atenção total aos detalhes. Nosso know-how nos permite personalizar cada etapa do seu grande dia, respeitando prioridades, expectativas e orçamento, sem surpresas ao longo do processo. Com uma trajetória sólida, estamos prontos para realizar cerimônias Católicas, Judaicas, Inter-religiosas, LGBTQIAPN+, Destination Weddings e celebrações de Dupla Nacionalidade. Amamos o que fazemos — e construímos laços reais com quem confiou em nós para viver esse momento único. Conte conosco para cuidar do seu grande dia!",
     "backgroundText1": "EXCELLENCE",
@@ -38,7 +38,7 @@
   },
 
   "portfolio": {
-    "title": "NOSSAS REALIZAÇÕES",
+    "title": "REALIZAÇÕES",
     "discover": "DESCUBRA",
     "options": [
       {
@@ -76,7 +76,7 @@
 
   "tendency": {
     "title": "TENDÊNCIAS EM 2025",
-    "button": "ACESSE NOSSO BLOG"
+    "button": "ACESSE NOSSAS DICAS"
   },
 
   "contact": {
@@ -150,7 +150,7 @@
   },
 
   "portfolioPage": {
-    "heroTitle": "NOSSAS REALIZAÇÕES",
+    "heroTitle": "REALIZAÇÕES",
     "sectionTitle": "MOMENTOS QUE FICAM Em nossas memórias para sempre!",
     "sectionText": "Além de assessor e cerimonialista, Leco Biagioni também assina projetos de decoração — oferecendo uma experiência completa e integrada para o seu casamento. Com nosso escritório, você encontra tudo o que precisa em um só lugar. Realizamos produções rústicas, tropicais, modernas, clássicas, luxuosas e temáticas, sempre com olhar apurado e atenção aos detalhes.\n\nConheça alguns dos nossos projetos e inspire-se."
   },
@@ -186,9 +186,9 @@
     }
   },
 
-  "blog": {
+  "tips": {
     "header": {
-      "title": "Acompanhe nosso Blog!",
+      "title": "Acompanhe nossas dicas!",
       "subtitle1": "As cores para",
       "subtitle2": "Casamento em 2025",
       "intro1": "As cores para casamentos em 2024 são uma inspiração para você que ainda não definiu uma direção de combinação de cores para o seu grande dia. Elas podem ser usadas como protagonistas com bastante destaque em um projeto de decoração, ou apenas compor junto à outras tonalidades dentro de uma paleta de cores de forma mais sutil e pontual.",

@@ -17,7 +17,7 @@ export function SectionPortfolio() {
 
   const images = [
     `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-felipe-juan40.jpg`,
-    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-ivy-aniver-21.jpg`,
+    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/imgs-home/portf-home2.jpg`,
     `${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-mariana-mario06.jpg`,
   ];
 
