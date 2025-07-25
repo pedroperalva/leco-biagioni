@@ -23,7 +23,7 @@ export function SectionHero() {
             after:content-[''] after:absolute after:left-0 after:bottom-0
             after:h-30 after:w-[2px] after:bg-[var(--gold)]"
         >
-          <h1 className="uppercase text-center text-3xl md:text-5xl max-w-[600px]">
+          <h1 className="uppercase text-center text-3xl md:text-4xl max-w-[600px]">
             {t("title")}
           </h1>
           <p className="italic font-semibold whitespace-pre-line">
@@ -44,14 +44,14 @@ export function SectionHero() {
           id="servicos"
         >
           <h3 className="font-semibold text-sm mb-8">{t("servicesTitle")}</h3>
-          <p className="text-3xl lg:text-5xl mb-2">{t("services.planning")}</p>
-          <p className="text-3xl lg:text-5xl mb-2">
+          <p className="text-3xl lg:text-4xl mb-2">{t("services.planning")}</p>
+          <p className="text-3xl lg:text-4xl mb-2">
             {t("services.consulting")}
           </p>
-          <p className="text-3xl lg:text-5xl mb-2">
+          <p className="text-3xl lg:text-4xl mb-2">
             {t("services.celebrities")}
           </p>
-          <p className="text-3xl lg:text-5xl mb-8">
+          <p className="text-3xl lg:text-4xl mb-8">
             {t("services.destination")}
           </p>
           <Link href={`/servicos`}>

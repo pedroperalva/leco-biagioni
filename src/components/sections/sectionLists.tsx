@@ -27,7 +27,7 @@ export function SectionLists() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-x-0 bottom-0 z-10 h-[100px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
-          <h2 className="text-5xl tracking-widest font-light">
+          <h2 className="text-4xl tracking-widest font-light">
             {section?.title}
           </h2>
         </div>

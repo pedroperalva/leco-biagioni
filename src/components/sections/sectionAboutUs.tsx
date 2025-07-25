@@ -7,7 +7,7 @@ export function SectionAboutUs() {
 
   return (
     <section className="w-full flex flex-col" id="about">
-      <h1 className="text-5xl text-black my-16 self-center text-center">
+      <h1 className="text-4xl text-black my-16 self-center text-center">
         {t("who")}
       </h1>
 
@@ -21,7 +21,7 @@ export function SectionAboutUs() {
           className="w-[330px] md:w-[425px] h-[285px] bg-white text-black p-4 text-center absolute bottom-[-50px] shadow-xl left-1/2 transform -translate-x-1/2 
         md:relative md:bottom-auto md:left-auto md:transform-none md:translate-x-0"
         >
-          <h1 className="text-5xl mb-6">{t("familyTitle")}</h1>
+          <h1 className="text-4xl mb-6">{t("familyTitle")}</h1>
           <p className="font-semibold text-sm md:text-md">{t("familyText")}</p>
         </div>
       </div>
@@ -34,8 +34,8 @@ export function SectionAboutUs() {
         />
 
         <div className="max-w-[300px] md:max-w-[380px]">
-          <h1 className="text-5xl font-bold">{t("philosophyTitle1")}</h1>
-          <h1 className="text-4xl md:text-5xl">{t("philosophyTitle2")}</h1>
+          <h1 className="text-4xl font-bold">{t("philosophyTitle1")}</h1>
+          <h1 className="text-4xl md:text-4xl">{t("philosophyTitle2")}</h1>
 
           <p className="text-sm md:text-xs font-semibold leading-loose mt-4">
             {t("philosophyText")}

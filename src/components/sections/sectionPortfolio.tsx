@@ -23,7 +23,7 @@ export function SectionPortfolio() {
 
   return (
     <section className="w-full flex flex-col" id="realizacoes">
-      <h1 className="text-5xl text-black my-16 self-center text-center">
+      <h1 className="text-4xl text-black my-16 self-center text-center">
         {t("title")}
       </h1>
       <div className="w-full flex flex-col items-center">
@@ -48,7 +48,7 @@ export function SectionPortfolio() {
               <p className="text-xs border-b border-black font-bold inline-block pb-1">
                 {item.title}
               </p>
-              <p className="text-4xl md:text-5xl">{item.subtitle}</p>
+              <p className="text-4xl md:text-4xl">{item.subtitle}</p>
               <p className="font-semibold">{item.description}</p>
               <Link
                 className="font-semibold hover:underline hidden md:block"

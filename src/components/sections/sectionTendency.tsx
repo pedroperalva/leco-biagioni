@@ -9,7 +9,7 @@ export function SectionTendency() {
   const locale = useLocale();
   return (
     <section className="w-full flex flex-col items-center mt-16" id="tendency">
-      <h1 className="text-5xl text-black self-center text-center">
+      <h1 className="text-4xl text-black self-center text-center">
         {t("title")}
       </h1>
       <img

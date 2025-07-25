@@ -19,7 +19,7 @@ export default function Servicos() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-x-0 bottom-0 z-10 h-[200px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
-          <h2 className="text-5xl tracking-widest font-light">{t("title")}</h2>
+          <h2 className="text-4xl tracking-widest font-light">{t("title")}</h2>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ export default function Servicos() {
                   className="h-[400px] object-cover object-[center_top] w-full"
                 />
                 <div className="absolute inset-0 bg-black/40"></div>
-                <h2 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-5xl text-white px-4 py-2 uppercase z-10 text-center">
+                <h2 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-4xl text-white px-4 py-2 uppercase z-10 text-center">
                   {title}
                 </h2>
               </div>

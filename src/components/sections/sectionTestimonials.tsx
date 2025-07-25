@@ -10,7 +10,7 @@ export function SectionTestimonials() {
 
   return (
     <section className="w-full flex flex-col" id="testimonials">
-      <h1 className="text-5xl text-black my-16 self-center text-center">
+      <h1 className="text-4xl text-black my-16 self-center text-center">
         {t("title")}
       </h1>
 
