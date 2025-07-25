@@ -45,12 +45,14 @@ export function SectionHero() {
         >
           <h3 className="font-semibold text-sm mb-8">{t("servicesTitle")}</h3>
           <p className="text-3xl lg:text-5xl mb-2">{t("services.planning")}</p>
-          <p className="text-3xl lg:text-5xl mb-2">{t("services.design")}</p>
           <p className="text-3xl lg:text-5xl mb-2">
-            {t("services.production")}
+            {t("services.consulting")}
+          </p>
+          <p className="text-3xl lg:text-5xl mb-2">
+            {t("services.celebrities")}
           </p>
           <p className="text-3xl lg:text-5xl mb-8">
-            {t("services.coordination")}
+            {t("services.destination")}
           </p>
           <Link href={`/servicos`}>
             <MainButton>{t("cta")}</MainButton>
