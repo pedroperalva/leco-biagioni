@@ -91,21 +91,21 @@
       "title": "FELIPE & JUAN",
       "subtitle": "CASAMENTO FELIPE & JUAN - ALÉM DO SONHO"
     },
-    "anaPaulaLucas": {
+    "anaPaula": {
       "title": "ANA PAULA & LUCAS",
       "subtitle": "CASAMENTO ANA PAULA & LUCAS - VILLA RISO"
     },
-    "ivy": {
-      "title": "IVY",
-      "subtitle": "ANIVERSÁRIO IVY - 18 ANOS"
+    "raquel": {
+      "title": "RAQUEL & LEONEL",
+      "subtitle": "CASAMENTO RAQUEL & LEONEL - ALÉM DO SONHO"
     },
-    "erika": {
-      "title": "ÉRIKA JANUZA",
-      "subtitle": "ANIVERSÁRIO ÉRIKA JANUZA - 40 ANOS"
+    "januza": {
+      "title": "JANUZA & LUIZ",
+      "subtitle": "CASAMENTO JANUZA & LUIZ - SOLAR REAL"
     },
-    "beatriz": {
+    "beatriz15": {
       "title": "BEATRIZ - 15 ANOS",
-      "subtitle": "ANIVERSÁRIO BEATRIZ - 15 ANOS - GOLDEN GREEN"
+      "subtitle": "BEATRIZ - 15 ANOS - GOLDEN GREEN"
     },
     "camilaPedro": {
       "title": "CAMILA & PEDRO",
@@ -115,37 +115,41 @@
       "title": "CAMILA & JOÃO",
       "subtitle": "CASAMENTO CAMILA & JOÃO - JUIZ DE FORA"
     },
-    "camilleErick": {
+    "camille": {
       "title": "CAMILLE & ERICK",
       "subtitle": "CASAMENTO CAMILLE & ERICK - LAGO BURITI"
     },
-    "larissaChicri": {
+    "larissa": {
       "title": "LARISSA & CHICRI",
       "subtitle": "CASAMENTO LARISSA & CHICRI - ITANHANGÁ GOLF CLUB"
     },
-    "louhayneCharles": {
+    "louhayne": {
       "title": "LOUHAYNE & CHARLES",
       "subtitle": "CASAMENTO LOUHAYNE & CHARLES - IGREJA SÃO FRANCISCO DE PAULA"
     },
-    "marianaMario": {
+    "mariana": {
       "title": "MARIANA & MARIO",
       "subtitle": "CASAMENTO MARIANA & MARIO - CRISTO REDENTOR"
     },
-    "rhayannaLucas": {
+    "rhayanna": {
       "title": "RHAYANNA & LUCAS",
       "subtitle": "CASAMENTO RHAYANNA & LUCAS - GOLFE OLÍMPICO"
     },
-    "grazyRyen": {
-      "title": "GRAZY & RYEN",
-      "subtitle": "CASAMENTO GRAZY & RYEN - CASA DO ALTO"
+    "sarah": {
+      "title": "SARAH & RODRIGO",
+      "subtitle": "CASAMENTO SARAH & RODRIGO - SANTA TERESA MGALLERY"
     },
-    "janusaLuiz": {
-      "title": "JANUSA & LUIZ",
-      "subtitle": "CASAMENTO JANUSA & LUIZ - SOLAR REAL"
+    "januza2": {
+      "title": "JANUZA & LUIZ",
+      "subtitle": "CASAMENTO JANUZA & LUIZ - SOLAR REAL"
     },
-    "joanaGabriel": {
-      "title": "JOANA & GABRIEL",
-      "subtitle": "CASAMENTO JOANA & GABRIEL - XIAN RIO"
+    "beatrizKenedy": {
+      "title": "BEATRIZ & KENEDY",
+      "subtitle": "CASAMENTO BEATRIZ & KENEDY - ALÉM DO SONHO"
+    },
+    "catharina": {
+      "title": "CATHARINA - 15 ANOS",
+      "subtitle": "CATHARINA - 15 ANOS - JOCKEY PAREO"
     }
   },
 

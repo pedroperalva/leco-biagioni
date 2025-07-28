@@ -91,21 +91,21 @@
       "title": "FELIPE & JUAN",
       "subtitle": "WEDDING FELIPE & JUAN - ALÉM DO SONHO"
     },
-    "anaPaulaLucas": {
+    "anaPaula": {
       "title": "ANA PAULA & LUCAS",
       "subtitle": "WEDDING ANA PAULA & LUCAS - VILLA RISO"
     },
-    "ivy": {
-      "title": "IVY",
-      "subtitle": "IVY'S 18TH BIRTHDAY"
+    "raquel": {
+      "title": "RAQUEL & LEONEL",
+      "subtitle": "WEDDING RAQUEL & LEONEL - ALÉM DO SONHO"
     },
-    "erika": {
-      "title": "ÉRIKA JANUZA",
-      "subtitle": "ÉRIKA JANUZA - 40TH BIRTHDAY"
+    "januza": {
+      "title": "JANUZA & LUIZ",
+      "subtitle": "WEDDING JANUZA & LUIZ - SOLAR REAL"
     },
-    "beatriz": {
+    "beatriz15": {
       "title": "BEATRIZ - 15 YEARS",
-      "subtitle": "BEATRIZ - 15TH BIRTHDAY - GOLDEN GREEN"
+      "subtitle": "BEATRIZ - 15 YEARS - GOLDEN GREEN"
     },
     "camilaPedro": {
       "title": "CAMILA & PEDRO",
@@ -115,37 +115,41 @@
       "title": "CAMILA & JOÃO",
       "subtitle": "WEDDING CAMILA & JOÃO - JUIZ DE FORA"
     },
-    "camilleErick": {
+    "camille": {
       "title": "CAMILLE & ERICK",
       "subtitle": "WEDDING CAMILLE & ERICK - LAGO BURITI"
     },
-    "larissaChicri": {
+    "larissa": {
       "title": "LARISSA & CHICRI",
       "subtitle": "WEDDING LARISSA & CHICRI - ITANHANGÁ GOLF CLUB"
     },
-    "louhayneCharles": {
+    "louhayne": {
       "title": "LOUHAYNE & CHARLES",
       "subtitle": "WEDDING LOUHAYNE & CHARLES - SÃO FRANCISCO DE PAULA CHURCH"
     },
-    "marianaMario": {
+    "mariana": {
       "title": "MARIANA & MARIO",
       "subtitle": "WEDDING MARIANA & MARIO - CHRIST THE REDEEMER"
     },
-    "rhayannaLucas": {
+    "rhayanna": {
       "title": "RHAYANNA & LUCAS",
-      "subtitle": "WEDDING RHAYANNA & LUCAS - OLYMPIC GOLF CLUB"
+      "subtitle": "WEDDING RHAYANNA & LUCAS - OLYMPIC GOLF COURSE"
     },
-    "grazyRyen": {
-      "title": "GRAZY & RYEN",
-      "subtitle": "WEDDING GRAZY & RYEN - CASA DO ALTO"
+    "sarah": {
+      "title": "SARAH & RODRIGO",
+      "subtitle": "WEDDING SARAH & RODRIGO - SANTA TERESA MGALLERY"
     },
-    "janusaLuiz": {
-      "title": "JANUSA & LUIZ",
-      "subtitle": "WEDDING JANUSA & LUIZ - SOLAR REAL"
+    "januza2": {
+      "title": "JANUZA & LUIZ",
+      "subtitle": "WEDDING JANUZA & LUIZ - SOLAR REAL"
     },
-    "joanaGabriel": {
-      "title": "JOANA & GABRIEL",
-      "subtitle": "WEDDING JOANA & GABRIEL - XIAN RIO"
+    "beatrizKenedy": {
+      "title": "BEATRIZ & KENEDY",
+      "subtitle": "WEDDING BEATRIZ & KENEDY - ALÉM DO SONHO"
+    },
+    "catharina": {
+      "title": "CATHARINA - 15 YEARS",
+      "subtitle": "CATHARINA - 15 YEARS - JOCKEY PAREO"
     }
   },
 
