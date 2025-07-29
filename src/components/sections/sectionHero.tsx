@@ -10,7 +10,7 @@ export function SectionHero() {
   return (
     <section className="w-full" id="hero">
       <div
-        className="w-full bg-cover bg-no-repeat md:bg-[center_top] bg-[center_right] h-[675px]"
+        className="w-full bg-cover bg-no-repeat md:bg-[center_top] bg-[center] h-[675px]"
         style={{
           backgroundImage: `url('${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/Capa/@pchufi-810.JPEG')`,
         }}

@@ -22,7 +22,7 @@ export function SectionPortfolio() {
   ];
 
   return (
-    <section className="w-full flex flex-col" id="realizacoes">
+    <section className="w-full flex flex-col px-6" id="realizacoes">
       <h1 className="text-4xl text-black my-16 self-center text-center">
         {t("title")}
       </h1>
@@ -36,19 +36,22 @@ export function SectionPortfolio() {
                 : "md:flex-row flex-col-reverse"
             } justify-between items-center gap-6 mb-16 w-full md:w-[870px]`}
           >
-            <a className="font-semibold hover:underline md:hidden" href="">
+            <Link
+              className="font-semibold hover:underline md:hidden"
+              href={`${locale}/portfolio/${item.folder}`}
+            >
               {t("discover")}
-            </a>
+            </Link>
             <img
               src={images[index]}
               alt={item.title}
-              className="w-[350px] h-[500px] object-cover shadow-2xl"
+              className="w-full max-w-[350px] h-[500px] object-cover shadow-2xl"
             />
             <div className="text-center md:space-y-4 space-y-2">
               <p className="text-xs border-b border-black font-bold inline-block pb-1">
                 {item.title}
               </p>
-              <p className="text-4xl md:text-4xl">{item.subtitle}</p>
+              <p className="text-3xl">{item.subtitle}</p>
               <p className="font-semibold">{item.description}</p>
               <Link
                 className="font-semibold hover:underline hidden md:block"
