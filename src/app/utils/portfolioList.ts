@@ -78,12 +78,6 @@ export const getPortfolioList = (t: (key: string) => string) => [
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Sarah-e-Rodrigo-Santa-Teresa-MGallery/sarah-rodrigo-wed-87.jpg`,
   },
   {
-    folder: "januza-e-luiz-no-solar-real",
-    title: t("portfolioList.januza2.title"),
-    subtitle: t("portfolioList.januza2.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Januza-e-Luiz-Solar-real/G3O7xqNyQNQ6kRON0cXORglTvb-LWpFw.jpg`,
-  },
-  {
     folder: "beatriz-e-kenedy-Alem-do-Sonho",
     title: t("portfolioList.beatrizKenedy.title"),
     subtitle: t("portfolioList.beatrizKenedy.subtitle"),

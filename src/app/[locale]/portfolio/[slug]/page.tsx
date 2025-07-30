@@ -47,8 +47,11 @@ export default function PortfolioPage() {
   return (
     <main className="min-h-screen w-full py-8 space-y-8">
       <div className="relative w-full h-[800px] overflow-hidden">
-        <img src={heroUrl} alt="Hero" className="w-full h-full object-cover" />
-
+        <img
+          src={heroUrl}
+          alt="Hero"
+          className="w-full h-full object-cover object-[center_top]"
+        />
         <div className="absolute inset-0 h-[300px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
           <h2 className="text-4xl tracking-widest font-light">PORTFOLIO</h2>
           <h1 className="font-bold uppercase">{portfolioItem?.title}</h1>
@@ -63,7 +66,7 @@ export default function PortfolioPage() {
         <img
           src={bannerUrl}
           alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover object-center mx-auto"
+          className="absolute inset-0 w-full h-full object-cover object-[center_top] md:object-center mx-auto"
         />
       </div>
 
