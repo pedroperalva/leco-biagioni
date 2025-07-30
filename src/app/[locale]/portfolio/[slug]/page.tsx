@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabase";
 import { getPortfolioList } from "@/app/utils/portfolioList";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export default function PortfolioPage() {
   const t = useTranslations();
@@ -13,6 +14,7 @@ export default function PortfolioPage() {
   const params = useParams();
   const slug = params?.slug;
   const portfolioItem = portfolioList.find((item) => item.folder === slug);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   useEffect(() => {
     async function listarArquivos() {
@@ -73,14 +75,35 @@ export default function PortfolioPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6">
         {gridImages.map((file) => {
           const url = getUrl(file.name);
+
           return (
-            <div className="relative aspect-[4/3] w-full" key={file.name}>
-              <img
-                src={url}
-                alt={file.name}
-                className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md"
-              />
-            </div>
+            <Dialog
+              key={file.name}
+              onOpenChange={(open) => !open && setSelectedImage(null)}
+            >
+              <DialogTrigger asChild>
+                <div
+                  className="relative aspect-[4/3] w-full cursor-pointer"
+                  onClick={() => setSelectedImage(url)}
+                >
+                  <img
+                    src={url}
+                    alt={file.name}
+                    className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </DialogTrigger>
+
+              <DialogContent className="max-w-5xl w-full max-h-screen bg-transparent p-0 overflow-hidden">
+                {selectedImage && (
+                  <img
+                    src={selectedImage}
+                    alt="Selected"
+                    className="w-full object-contain"
+                  />
+                )}
+              </DialogContent>
+            </Dialog>
           );
         })}
       </div>
