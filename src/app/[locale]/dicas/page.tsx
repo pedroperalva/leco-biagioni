@@ -8,7 +8,7 @@ export default function Dicas() {
   const t = useTranslations("tips");
 
   return (
-    <main className="min-h-screen w-full px-4 pt-[100px] pb-[200px] flex flex-col items-center text-black space-y-12">
+    <main className="min-h-screen w-full px-4  pb-[200px] flex flex-col items-center text-black space-y-12 pt-[100px]">
       <div className="md:w-2xl w-full space-y-6 my-10 font-bold text-black">
         <h1 className="text-4xl text-center">{t("header.title")}</h1>
 

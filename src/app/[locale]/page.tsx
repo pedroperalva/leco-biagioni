@@ -41,7 +41,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen w-full pt-[100px]">
+    <main className="min-h-screen w-full ">
       <SectionHero />
       <SectionAboutUs />
       <SectionPortfolio />

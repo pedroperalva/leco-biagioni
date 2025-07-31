@@ -10,7 +10,7 @@ export default function Portfolio() {
   const portfolioItems = getPortfolioList(t);
 
   return (
-    <main className="min-h-screen w-full pb-8 pt-[100px] space-y-8 flex flex-col items-center">
+    <main className="min-h-screen w-full pb-8  space-y-8 flex flex-col items-center">
       <div className="relative w-full h-[200px] overflow-hidden">
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/banner-relizacoes.jpg`}

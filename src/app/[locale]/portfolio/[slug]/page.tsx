@@ -47,7 +47,7 @@ export default function PortfolioPage() {
   const gridImages = arquivos.slice(2);
 
   return (
-    <main className="min-h-screen w-full py-8 space-y-8">
+    <main className="min-h-screen w-full pb-8 space-y-8">
       <div className="relative w-full h-[800px] overflow-hidden">
         <img
           src={heroUrl}

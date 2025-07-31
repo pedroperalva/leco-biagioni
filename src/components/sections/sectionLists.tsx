@@ -19,7 +19,7 @@ export function SectionLists() {
   }, [pathname]);
 
   return (
-    <main className="min-h-screen w-full pb-8 pt-[100px] space-y-8 flex flex-col items-center">
+    <main className="min-h-screen w-full pb-8  space-y-8 flex flex-col items-center">
       <div className="relative w-full h-[400px] overflow-hidden">
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/card-cristo-asse-e.jpg`}

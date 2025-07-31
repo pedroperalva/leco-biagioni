@@ -1,7 +1,7 @@
 import "../globals.css";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Footer } from "@/components/footer";
-import { NavbarMobile } from "@/components/navbar/navBarMobile";
+import { Navbar } from "@/components/navbar/navBar";
 import { Poiret_One } from "next/font/google";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -36,7 +36,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={`${poiret.className} bg-[var(--main-bg)]`}>
         <NextIntlClientProvider>
-          <NavbarMobile />
+          <Navbar />
           {children}
           <Footer />
         </NextIntlClientProvider>
