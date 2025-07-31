@@ -30,7 +30,7 @@ export default function Servicos() {
           return (
             <div
               key={index}
-              className={`md:w-full max-w-[400px] flex flex-col ${
+              className={`md:w-full max-w-[400px] md:max-w-full flex flex-col ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               } items-center justify-between gap-6 md:h-[400px]`}
             >
