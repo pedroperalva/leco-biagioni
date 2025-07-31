@@ -11,7 +11,7 @@ export default function Servicos() {
   const [open, setOpen] = useState(false);
 
   return (
-    <main className="min-h-screen w-full pb-8  space-y-8 flex flex-col items-center">
+    <main className="min-h-screen w-full pb-8 space-y-8 flex flex-col items-center">
       <div className="relative w-full h-[200px] overflow-hidden">
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/banner-servicos.jpg`}
@@ -30,7 +30,7 @@ export default function Servicos() {
           return (
             <div
               key={index}
-              className={`md:w-full w-[400px] flex flex-col ${
+              className={`md:w-full max-w-[400px] flex flex-col ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               } items-center justify-between gap-6 md:h-[400px]`}
             >
