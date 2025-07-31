@@ -25,6 +25,7 @@ export function Navbar() {
 
   const [showBg, setShowBg] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // NOVO: controlar se o menu está aberto
 
   const scrollToHash = (hash: string) => {
     const element = document.querySelector(hash);
@@ -49,6 +50,8 @@ export function Navbar() {
       sessionStorage.setItem("scrollTo", href);
       router.push(`/${locale}`);
     }
+
+    setIsMenuOpen(false); // Fecha o menu ao clicar em um item
   };
 
   useEffect(() => {
@@ -60,11 +63,12 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const backgroundClass = showBg || isHovered ? "bg-black" : "bg-transparent";
+  const backgroundClass =
+    showBg || isHovered || isMenuOpen ? "bg-black/70" : "bg-transparent";
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-100 ${backgroundClass}`}
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-200 ${backgroundClass}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -87,7 +91,11 @@ export function Navbar() {
           <div className="hidden md:block">
             <SelectFlag />
           </div>
-          <DropdownMenu>
+
+          <DropdownMenu
+            open={isMenuOpen}
+            onOpenChange={(open) => setIsMenuOpen(open)} // NOVO: controlar abertura do menu
+          >
             <DropdownMenuTrigger asChild>
               <IoMenu className="text-3xl cursor-pointer text-[var(--gold)]" />
             </DropdownMenuTrigger>

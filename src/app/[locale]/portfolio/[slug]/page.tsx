@@ -54,7 +54,7 @@ export default function PortfolioPage() {
           alt="Hero"
           className="w-full h-full object-cover object-[center_top]"
         />
-        <div className="absolute inset-0 h-[300px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
+        <div className="absolute inset-0 h-[400px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
           <h2 className="text-4xl tracking-widest font-light">PORTFOLIO</h2>
           <h1 className="font-bold uppercase">{portfolioItem?.title}</h1>
         </div>

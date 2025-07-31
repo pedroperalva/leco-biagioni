@@ -12,13 +12,13 @@ export default function Servicos() {
 
   return (
     <main className="min-h-screen w-full pb-8 space-y-8 flex flex-col items-center">
-      <div className="relative w-full h-[200px] overflow-hidden">
+      <div className="relative w-full h-[350px] overflow-hidden">
         <img
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/banner-servicos.jpg`}
           alt="Hero"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-x-0 bottom-0 z-10 h-[200px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
+        <div className="absolute inset-x-0 bottom-0 z-10 h-[350px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
           <h2 className="text-4xl tracking-widest font-light">{t("title")}</h2>
         </div>
       </div>
