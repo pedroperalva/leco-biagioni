@@ -66,10 +66,20 @@ export function Footer() {
           </p>
           <p className="text-sm text-[#7A7A7A]">2025- Rio de Janeiro, Brazil</p>
           <div className="flex items-center gap-4 mt-4 justify-center md:justify-start">
-            <p className="text-sm text-[#7A7A7A]">@LECOBIAGIONI</p>
-            <div className="w-10 h-10 rounded-full border border-[#7A7A7A] flex items-center justify-center cursor-pointer">
+            <a
+              href="https://www.instagram.com/lecobiagioni"
+              target="_blank"
+              className="text-sm text-[#7A7A7A]"
+            >
+              @LECOBIAGIONI
+            </a>
+            <a
+              href="https://www.instagram.com/lecobiagioni"
+              target="_blank"
+              className="w-10 h-10 rounded-full border border-[#7A7A7A] flex items-center justify-center cursor-pointer"
+            >
               <FaInstagram className="text-[#7A7A7A] text-2xl" />
-            </div>
+            </a>
           </div>
         </div>
       </div>
