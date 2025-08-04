@@ -14,8 +14,9 @@ export function SectionTendency() {
       </h1>
       <img
         src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/tendencias/vest_color_fuzzy_01.jpg`}
-        alt=""
+        alt="tips"
         className="w-[870px] my-16"
+        loading="lazy"
       />
       <Link href={`${locale}/dicas`}>
         <MainButton>{t("button")}</MainButton>

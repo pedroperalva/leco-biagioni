@@ -21,6 +21,7 @@ export function SectionContact() {
             src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/img_contato.png`}
             alt=""
             className="w-[300px]"
+            loading="lazy"
           />
         </div>
       </div>

@@ -20,6 +20,7 @@ export function SectionTestimonials() {
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.jpeg`}
           alt=""
           className="w-[200px] object-cover h-[300px] self-end"
+          loading="lazy"
         />
         <div className="text-center flex flex-col items-center justify-center max-w-[300px] gap-20">
           <p className="text-black font-semibold mb-2">“{testimonial.quote}”</p>
@@ -68,6 +69,7 @@ export function SectionTestimonials() {
             src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/img-home/port-rhayana-lucas17.jpeg`}
             alt=""
             className="max-w-[300px] object-cover h-[300px]"
+            loading="lazy"
           />
           <p className="font-bold text-black text-sm mb-2">
             {testimonial.author}

@@ -18,10 +18,10 @@ export const getPortfolioList = (t: (key: string) => string) => [
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Raquel-e-Leonel-Alem-do-Sonho/image00066.JPEG`,
   },
   {
-    folder: "Januza-e-Luiz-Solar-real",
-    title: t("portfolioList.januza.title"),
-    subtitle: t("portfolioList.januza.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Januza-e-Luiz-Solar-real/G3O7xqNyQNQ6kRON0cXORglTvb-LWpFw.jpg`,
+    folder: "Janula-e-Luiz-Solar-real",
+    title: t("portfolioList.janula.title"),
+    subtitle: t("portfolioList.janula.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Jaluza-e-Luiz-Solar-real/G3O7xqNyQNQ6kRON0cXORglTvb-LWpFw.jpg`,
   },
   {
     folder: "beatriz-15-anos---golden-green",

@@ -46,6 +46,7 @@ export function SectionPortfolio() {
               src={images[index]}
               alt={item.title}
               className="w-full max-w-[350px] h-[500px] object-cover shadow-2xl"
+              loading="lazy"
             />
             <div className="text-center md:space-y-4 space-y-2">
               <p className="text-xs border-b border-black font-bold inline-block pb-1">

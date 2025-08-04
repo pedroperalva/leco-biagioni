@@ -64,6 +64,7 @@ export function SectionHero() {
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/service-home2.jpg`}
           alt=""
           className="w-[120px] md:w-[200px] lg:w-[389px]"
+          loading="lazy"
         />
       </div>
     </section>

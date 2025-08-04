@@ -31,6 +31,7 @@ export function SectionAboutUs() {
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/imgs-home/foto-leco.jpg`}
           alt=""
           className="w-[300px] h-[400px] object-cover"
+          loading="lazy"
         />
 
         <div className="max-w-[300px] md:max-w-[380px]">
