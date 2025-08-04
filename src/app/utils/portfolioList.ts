@@ -18,9 +18,9 @@ export const getPortfolioList = (t: (key: string) => string) => [
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Raquel-e-Leonel-Alem-do-Sonho/image00066.JPEG`,
   },
   {
-    folder: "Janula-e-Luiz-Solar-real",
-    title: t("portfolioList.janula.title"),
-    subtitle: t("portfolioList.janula.subtitle"),
+    folder: "Jaluza-e-Luiz-Solar-real",
+    title: t("portfolioList.jaluza.title"),
+    subtitle: t("portfolioList.jaluza.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Jaluza-e-Luiz-Solar-real/G3O7xqNyQNQ6kRON0cXORglTvb-LWpFw.jpg`,
   },
   {
