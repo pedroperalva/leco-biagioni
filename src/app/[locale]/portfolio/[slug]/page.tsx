@@ -6,6 +6,8 @@ import { getPortfolioList } from "@/app/utils/portfolioList";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Link } from "@/i18n/navigation";
+import { FaArrowLeft } from "react-icons/fa6";
 
 export default function PortfolioPage() {
   const t = useTranslations();
@@ -72,40 +74,49 @@ export default function PortfolioPage() {
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6">
-        {gridImages.map((file) => {
-          const url = getUrl(file.name);
+      <div className="relative w-full">
+        <Link
+          href={"/portfolio"}
+          className="cursor-pointer text-black text-sm font-bold top-0 right-4 absolute flex items-center gap-2"
+        >
+          <FaArrowLeft />
+          Voltar
+        </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6 py-8">
+          {gridImages.map((file) => {
+            const url = getUrl(file.name);
 
-          return (
-            <Dialog
-              key={file.name}
-              onOpenChange={(open) => !open && setSelectedImage(null)}
-            >
-              <DialogTrigger asChild>
-                <div
-                  className="relative aspect-[4/3] w-full cursor-pointer"
-                  onClick={() => setSelectedImage(url)}
-                >
-                  <img
-                    src={url}
-                    alt={file.name}
-                    className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md"
-                  />
-                </div>
-              </DialogTrigger>
+            return (
+              <Dialog
+                key={file.name}
+                onOpenChange={(open) => !open && setSelectedImage(null)}
+              >
+                <DialogTrigger asChild>
+                  <div
+                    className="relative aspect-[4/3] w-full cursor-pointer"
+                    onClick={() => setSelectedImage(url)}
+                  >
+                    <img
+                      src={url}
+                      alt={file.name}
+                      className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md"
+                    />
+                  </div>
+                </DialogTrigger>
 
-              <DialogContent className="max-w-5xl w-full max-h-screen bg-transparent p-0 overflow-hidden">
-                {selectedImage && (
-                  <img
-                    src={selectedImage}
-                    alt="Selected"
-                    className="w-full object-contain"
-                  />
-                )}
-              </DialogContent>
-            </Dialog>
-          );
-        })}
+                <DialogContent className="max-w-5xl w-full max-h-screen bg-transparent p-0 overflow-hidden">
+                  {selectedImage && (
+                    <img
+                      src={selectedImage}
+                      alt="Selected"
+                      className="w-full object-contain"
+                    />
+                  )}
+                </DialogContent>
+              </Dialog>
+            );
+          })}
+        </div>
       </div>
     </main>
   );

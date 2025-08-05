@@ -4,6 +4,8 @@ import { getPortfolioList } from "@/app/utils/portfolioList";
 import { ContactCard } from "@/components/cards/contactCard";
 import { PortfolioCard } from "@/components/cards/portfolioCard";
 import { useTranslations } from "next-intl";
+import { FaArrowLeft } from "react-icons/fa6";
+import { Link } from "@/i18n/navigation";
 
 export default function Portfolio() {
   const t = useTranslations();
@@ -24,13 +26,20 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-center px-4">
+      <div className="w-full flex flex-col items-center px-4 relative">
         <h1 className="text-2xl text-black my-16 self-center text-center uppercase font-bold max-w-[870px]">
           {t("portfolioPage.sectionTitle")}
         </h1>
         <p className="text-lg text-black my-8 self-center text-center px-4 md:px-0 font-bold max-w-[870px] whitespace-pre-line">
           {t("portfolioPage.sectionText")}
         </p>
+        <Link
+          href={"/"}
+          className="cursor-pointer text-black text-sm font-bold top-2 right-4 absolute flex items-center gap-2"
+        >
+          <FaArrowLeft />
+          Voltar
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 px-4 md:px-0">

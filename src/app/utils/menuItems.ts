@@ -1,4 +1,5 @@
 export const menuItems = [
+  { label: "home", href: "#home" },
   { label: "services", href: "#servicos" },
   { label: "about", href: "#about" },
   { label: "portfolio", href: "#realizacoes" },

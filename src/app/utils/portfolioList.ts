@@ -33,13 +33,13 @@ export const getPortfolioList = (t: (key: string) => string) => [
     folder: "Camila_e_Pedro_Haras_Pedra_do_Elefante",
     title: t("portfolioList.camilaPedro.title"),
     subtitle: t("portfolioList.camilaPedro.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Camila_e_Pedro_Haras_Pedra_do_Elefante%20/CAMILA%20E%20PEDRO_CHU20716.jpg`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Camila_e_Pedro_Haras_Pedra_do_Elefante/CHU20913.jpg`,
   },
   {
     folder: "Camila-e-Joao-Juiz-de-Fora",
     title: t("portfolioList.camilaJoao.title"),
     subtitle: t("portfolioList.camilaJoao.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Camila-e-Joao-Juiz-de-Fora%20/CASAMENTO%20CAMILA%20E%20JOAO%20GABRIEL_264.JPEG`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Camila-e-Joao-Juiz-de-Fora/TR2_4023.JPEG`,
   },
   {
     folder: "Camille-e-Erick-Lago-Buriti",
@@ -48,7 +48,7 @@ export const getPortfolioList = (t: (key: string) => string) => [
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Camille-e-Erick-Lago-Buriti/IMG_4670.JPG`,
   },
   {
-    folder: "casamento-larissa-&-chicri---itanhanga-golfe-club",
+    folder: "casamento-larissa-e-chicri---itanhanga-golfe-club",
     title: t("portfolioList.larissa.title"),
     subtitle: t("portfolioList.larissa.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-larissa-&-chicri---itanhanga-golfe-club/LARISSAELUIZFELIPE_PREVIA_CERIMONIA(30de63).jpg`,
@@ -60,13 +60,13 @@ export const getPortfolioList = (t: (key: string) => string) => [
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6826.JPG`,
   },
   {
-    folder: "casamento-mariana-&-mario-cristo-redentor",
+    folder: "casamento-mariana-e-mario-cristo-redentor",
     title: t("portfolioList.mariana.title"),
     subtitle: t("portfolioList.mariana.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-mariana-&-mario-cristo-redentor/@pchufi-314.JPEG`,
   },
   {
-    folder: "casamento-rhaynna-&-lucas---golfe-olimpico",
+    folder: "casamento-rhaynna-e-lucas---golfe-olimpico",
     title: t("portfolioList.rhayanna.title"),
     subtitle: t("portfolioList.rhayanna.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-rhaynna-&-lucas---golfe-olimpico/WhatsApp%20Image%202022-05-31%20at%2010.47.21%20(2).jpeg`,
@@ -81,7 +81,7 @@ export const getPortfolioList = (t: (key: string) => string) => [
     folder: "beatriz-e-kenedy-Alem-do-Sonho",
     title: t("portfolioList.beatrizKenedy.title"),
     subtitle: t("portfolioList.beatrizKenedy.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/beatriz-e-kenedy-Alem-do-Sonho%20/IMG_1163.JPG`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/beatriz-e-kenedy-Alem-do-Sonho/IMG_1189.JPG`,
   },
   {
     folder: "Catharina-15-anos-Jockey-Pareo",

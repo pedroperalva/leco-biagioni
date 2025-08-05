@@ -8,7 +8,7 @@ export function SectionHero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="w-full" id="hero">
+    <section className="w-full" id="home">
       <div
         className="w-full bg-cover bg-no-repeat md:bg-[center_top] bg-[center] h-[675px]"
         style={{

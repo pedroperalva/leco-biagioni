@@ -5,6 +5,7 @@
   },
 
   "menu": {
+    "home": "HOME",
     "services": "SERVIÇOS",
     "about": "QUEM SOU",
     "portfolio": "REALIZAÇÕES",

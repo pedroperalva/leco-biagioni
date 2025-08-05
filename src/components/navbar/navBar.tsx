@@ -83,7 +83,7 @@ export function Navbar() {
           src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/logos/_marca-preferencial.png`}
           alt="lecobiagioni"
           className="cursor-pointer w-[200px] md:w-[250px] absolute left-1/2 -translate-x-1/2 md:relative md:left-0 md:translate-x-0"
-          onClick={(e) => handleScroll(e as any, "#hero")}
+          onClick={(e) => handleScroll(e as any, "#home")}
         />
 
         {/* Menu e bandeira (desktop) ou só menu (mobile) */}
