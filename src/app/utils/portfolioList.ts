@@ -51,7 +51,7 @@ export const getPortfolioList = (t: (key: string) => string) => [
     folder: "casamento-larissa-e-chicri---itanhanga-golfe-club",
     title: t("portfolioList.larissa.title"),
     subtitle: t("portfolioList.larissa.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-larissa-&-chicri---itanhanga-golfe-club/LARISSAELUIZFELIPE_PREVIA_CERIMONIA(30de63).jpg`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-larissa-e-chicri---itanhanga-golfe-club/LARISSAELUIZFELIPE_PREVIA_CERIMONIA(30de63).jpg`,
   },
   {
     folder: "casamento-louhayne-e-charles---igreja-sao-francisco-de-paula",
@@ -63,13 +63,13 @@ export const getPortfolioList = (t: (key: string) => string) => [
     folder: "casamento-mariana-e-mario-cristo-redentor",
     title: t("portfolioList.mariana.title"),
     subtitle: t("portfolioList.mariana.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-mariana-&-mario-cristo-redentor/@pchufi-314.JPEG`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-mariana-e-mario-cristo-redentor/@pchufi-314.JPEG`,
   },
   {
     folder: "casamento-rhaynna-e-lucas---golfe-olimpico",
     title: t("portfolioList.rhayanna.title"),
     subtitle: t("portfolioList.rhayanna.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-rhaynna-&-lucas---golfe-olimpico/WhatsApp%20Image%202022-05-31%20at%2010.47.21%20(2).jpeg`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-rhaynna-e-lucas---golfe-olimpico/WhatsApp%20Image%202022-05-31%20at%2010.47.21%20(2).jpeg`,
   },
   {
     folder: "Sarah-e-Rodrigo-Santa-Teresa-MGallery",
