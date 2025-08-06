@@ -63,7 +63,7 @@ export const getPortfolioList = (t: (key: string) => string) => [
     folder: "casamento-mariana-e-mario-cristo-redentor",
     title: t("portfolioList.mariana.title"),
     subtitle: t("portfolioList.mariana.subtitle"),
-    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-mariana-e-mario-cristo-redentor/@pchufi-314.JPEG`,
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/casamento-mariana-e-mario-cristo-redentor/@pchufi-427.jpg`,
   },
   {
     folder: "casamento-rhaynna-e-lucas---golfe-olimpico",
