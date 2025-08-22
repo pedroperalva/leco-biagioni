@@ -184,6 +184,10 @@
         "title": "ceremony",
         "description": "On the wedding day, every detail is carefully planned. We hold a prior meeting to define the script, timeline, and ceremony in detail to ensure everything goes as expected. Our team works in strategic areas, coordinating vendors, supervising the setup (which may take days), and accompanying the couple throughout the event. The bride and groom have their own personal assistants, and the parents are assigned 'shadows' to provide full comfort. On the big day, our team includes at least 10 assistants, ensuring flawless execution of every step."
       }
+    },
+    "buttons": {
+      "learnMore": "LEARN MORE",
+      "whatsappButton": "CHAT ON WHATSAPP"
     }
   },
 

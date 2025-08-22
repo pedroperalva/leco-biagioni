@@ -4,9 +4,9 @@ import { useTranslations } from "next-intl";
 import { servicesList } from "@/app/utils/servicesList";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { useState } from "react";
-import { ContactButtons } from "@/components/buttons/contactButtons";
 import { Link } from "@/i18n/navigation";
 import { FaArrowLeft } from "react-icons/fa6";
+import { MainButton } from "@/components/buttons/mainButton";
 
 export default function Servicos() {
   const t = useTranslations("services");
@@ -57,7 +57,20 @@ export default function Servicos() {
 
                 <div className="h-full flex flex-col items-center md:items-start text-md font-bold justify-between p-1 lg:max-w-[500px] md:max-w-[400px] gap-4">
                   <p className="text-gray-700">{description}</p>
-                  <ContactButtons setOpen={setOpen} />
+                  <div className="flex items-center gap-4">
+                    <MainButton onClick={() => setOpen(true)}>
+                      {t("buttons.learnMore")}
+                    </MainButton>
+                    <a
+                      href="https://wa.me/5521999972025"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MainButton className="bg-[#75ff7a]">
+                        {t("buttons.whatsappButton")}
+                      </MainButton>
+                    </a>
+                  </div>
                 </div>
               </div>
             );
