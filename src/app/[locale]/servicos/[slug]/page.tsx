@@ -6,6 +6,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from "@/i18n/navigation";
 
 import { supabase } from "@/lib/supabase";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 // dados fixos por slug
 const serviceData: Record<
@@ -37,6 +38,7 @@ const serviceData: Record<
 export default function ServicePage() {
   const { slug } = useParams<{ slug: string }>();
   const [images, setImages] = useState<string[]>([]);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const service = serviceData[slug];
 
@@ -52,10 +54,13 @@ export default function ServicePage() {
       }
 
       if (data) {
-        const urls = data.map(
-          (file) =>
-            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/${slug}/${file.name}`
-        );
+        const urls = data.map((file) => {
+          const { data: publicUrl } = supabase.storage
+            .from("imagens-site-leco")
+            .getPublicUrl(`${slug}/${file.name}`);
+          return publicUrl.publicUrl;
+        });
+
         setImages(urls);
       }
     }
@@ -78,7 +83,7 @@ export default function ServicePage() {
         <img
           src={service.imageUrl}
           alt={service.title}
-          className="object-cover"
+          className="object-cover w-full h-full"
         />
         <div className="absolute inset-x-0 bottom-0 z-10 h-[350px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
           <h2 className="text-4xl tracking-widest font-light">
@@ -104,20 +109,36 @@ export default function ServicePage() {
         </Link>
       </div>
 
-      {/* Grid de imagens */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 px-4 md:px-0">
+      {/* Grid de imagens com modal */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
         {images.map((src, i) => (
-          <div
+          <Dialog
             key={i}
-            className="w-full h-64 relative rounded-2xl overflow-hidden shadow-md"
+            onOpenChange={(open) => !open && setSelectedImage(null)}
           >
-            <img
-              src={src}
-              alt={`${service.title} ${i}`}
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-300"
-            />
-          </div>
+            <DialogTrigger asChild>
+              <div
+                className="w-full h-100 relative rounded-2xl overflow-hidden shadow-md cursor-pointer"
+                onClick={() => setSelectedImage(src)}
+              >
+                <img
+                  src={src}
+                  alt={`${service.title} ${i}`}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </DialogTrigger>
+
+            <DialogContent className="max-w-5xl w-full max-h-screen bg-transparent p-0 overflow-hidden">
+              {selectedImage && (
+                <img
+                  src={selectedImage}
+                  alt="Imagem ampliada"
+                  className="w-full h-full object-contain"
+                />
+              )}
+            </DialogContent>
+          </Dialog>
         ))}
       </div>
     </main>

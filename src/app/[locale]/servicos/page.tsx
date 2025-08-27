@@ -58,9 +58,9 @@ export default function Servicos() {
                 <div className="h-full flex flex-col items-center md:items-start text-md font-bold justify-between p-1 lg:max-w-[500px] md:max-w-[400px] gap-4">
                   <p className="text-gray-700">{description}</p>
                   <div className="flex items-center gap-4">
-                    <MainButton onClick={() => setOpen(true)}>
-                      {t("buttons.learnMore")}
-                    </MainButton>
+                    <Link href={`/servicos/${service.id}`}>
+                      <MainButton>{t("buttons.learnMore")}</MainButton>
+                    </Link>
                     <a
                       href="https://wa.me/5521999972025"
                       target="_blank"
