@@ -4,43 +4,25 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 import { supabase } from "@/lib/supabase";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-
-// dados fixos por slug
-const serviceData: Record<
-  string,
-  { title: string; description: string; imageUrl: string }
-> = {
-  assessoria: {
-    title: "Assessoria",
-    description: "Descrição da assessoria...",
-    imageUrl: "/imgs-services/assessoria-banner.jpg",
-  },
-  cerimonial: {
-    title: "Cerimonial",
-    description: "Descrição do cerimonial...",
-    imageUrl: "/imgs-services/cerimonial-banner.jpg",
-  },
-  "wedding-destination": {
-    title: "Wedding Destination",
-    description: "Descrição do destination wedding...",
-    imageUrl: "/imgs-services/destination-banner.jpg",
-  },
-  celebridades: {
-    title: "Celebridades",
-    description: "Descrição da parte de celebridades...",
-    imageUrl: "/imgs-services/celebridades-banner.jpg",
-  },
-};
 
 export default function ServicePage() {
   const { slug } = useParams<{ slug: string }>();
   const [images, setImages] = useState<string[]>([]);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const service = serviceData[slug];
+  const t = useTranslations("services");
+
+  const service = slug
+    ? {
+        title: t(`${slug}.title`),
+        subtitle: t(`${slug}.subtitle`),
+        description: t(`${slug}.description`),
+      }
+    : null;
 
   useEffect(() => {
     async function fetchImages() {
@@ -71,31 +53,29 @@ export default function ServicePage() {
   if (!service) {
     return (
       <main className="min-h-screen flex items-center justify-center text-xl">
-        Serviço não encontrado
+        {t("notFound")}
       </main>
     );
   }
 
   return (
     <main className="min-h-screen w-full pb-8 space-y-8 flex flex-col items-center">
-      {/* Hero */}
-      <div className="relative w-full h-[350px] overflow-hidden">
+      <div className="relative w-full h-[700px] overflow-hidden">
         <img
-          src={service.imageUrl}
+          src={images[0]}
           alt={service.title}
           className="object-cover w-full h-full"
         />
-        <div className="absolute inset-x-0 bottom-0 z-10 h-[350px] bg-black/60 flex flex-col items-center justify-center text-white text-center px-4 gap-10">
-          <h2 className="text-4xl tracking-widest font-light">
+        <div className="absolute inset-x-0 bottom-0 z-10 h-[700px] bg-black/60 flex flex-col items-center justify-end text-white text-center px-4 pb-20 gap-10">
+          <h2 className="text-5xl tracking-widest font-light uppercase">
             {service.title}
           </h2>
         </div>
       </div>
 
-      {/* Texto */}
       <div className="w-full flex flex-col items-center px-4 relative">
         <h1 className="text-2xl text-black my-16 self-center text-center uppercase font-bold max-w-[870px]">
-          {service.title}
+          {service.subtitle}
         </h1>
         <p className="text-lg text-black my-8 self-center text-center px-4 md:px-0 font-bold max-w-[870px] whitespace-pre-line">
           {service.description}
@@ -105,11 +85,10 @@ export default function ServicePage() {
           className="cursor-pointer text-black text-sm font-bold top-2 right-4 absolute flex items-center gap-2"
         >
           <FaArrowLeft />
-          Voltar
+          {t("back")}
         </Link>
       </div>
 
-      {/* Grid de imagens com modal */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
         {images.map((src, i) => (
           <Dialog

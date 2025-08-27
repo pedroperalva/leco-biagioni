@@ -188,7 +188,29 @@
     "buttons": {
       "learnMore": "SAIBA MAIS",
       "whatsappButton": "FALE NO WHATSAPP"
-    }
+    },
+    "assessoria": {
+      "title": "Assessoria",
+      "subtitle": "Nossa assessoria começa do zero, acompanhando o casal desde a escolha do local até a execução do grande dia",
+      "description": "No primeiro encontro, realizamos uma Reunião de Briefing para entender o perfil, expectativas e prioridades do casal. A partir disso, elaboramos uma planilha estimativa de investimento e agendamos visitas aos locais sugeridos. Com a definição do espaço, criamos um cronograma completo da organização. Durante todo o processo, realizamos reuniões mensais de acompanhamento, sempre de forma leve e prazerosa — porque acreditamos que o casal deve curtir cada momento da organização, e não apenas o dia do casamento."
+    },
+    "cerimonial": {
+      "title": "Cerimonial",
+      "subtitle": "No dia do casamento, cada detalhe é planejado com precisão",
+      "description": "Realizamos uma reunião prévia de roteiro, cronograma e cerimonial para garantir que tudo ocorra conforme o planejado. Nossa equipe atua em setores estratégicos, coordenando fornecedores, supervisionando a montagem (que pode levar dias) e acompanhando o casal durante todo o evento. Os noivos contam com Personal Bride e Personal Groom, e os pais recebem “sombras” para terem total conforto. No grande dia, nossa equipe conta com pelo menos 10 assistentes, assegurando a perfeita execução de cada etapa."
+    },
+    "destination": {
+      "title": "Wedding Destination",
+      "subtitle": "Especialista em Destination Wedding no Rio de Janeiro",
+      "description": "Temos ampla experiência em atender casais estrangeiros que sonham em celebrar seu casamento no Brasil, oferecendo segurança total — desde o controle financeiro até a escolha dos espaços ideais. Criamos experiências completas para os noivos e seus convidados, com receptivo em aeroportos, transfers, passeios turísticos e sugestões de hospedagem através das nossas parcerias com hotéis renomados. Nosso time é fluente em inglês, espanhol e francês, garantindo uma comunicação clara em todas as etapas. Agende uma reunião com nosso time comercial e descubra como tornar seu casamento no Rio uma experiência inesquecível."
+    },
+    "celebridades": {
+      "title": "Celebridades",
+      "subtitle": "A assinatura por trás de eventos estrelados",
+      "description": "Com mais de 20 anos de atuação, o Escritório Leco Biagioni tornou-se referência entre artistas, cantores, modelos e personalidades brasileiras. Somos a escolha de quem busca exclusividade, excelência e discrição na realização de eventos inesquecíveis. Conheça alguns dos nomes que confiaram em nosso trabalho:"
+    },
+    "back": "Voltar",
+    "notFound": "Serviço não encontrado"
   },
 
   "tips": {
