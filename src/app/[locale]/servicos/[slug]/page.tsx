@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 
 import { supabase } from "@/lib/supabase";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { ContactCard } from "@/components/cards/contactCard";
 
 export default function ServicePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -119,6 +120,9 @@ export default function ServicePage() {
             </DialogContent>
           </Dialog>
         ))}
+      </div>
+      <div className="my-10">
+        <ContactCard />
       </div>
     </main>
   );
