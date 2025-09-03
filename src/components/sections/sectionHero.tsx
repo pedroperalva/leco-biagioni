@@ -44,16 +44,30 @@ export function SectionHero() {
           id="servicos"
         >
           <h3 className="font-semibold text-sm mb-8">{t("servicesTitle")}</h3>
-          <p className="text-3xl lg:text-4xl mb-2">{t("services.planning")}</p>
-          <p className="text-3xl lg:text-4xl mb-2">
+          <Link
+            className="text-3xl lg:text-4xl mb-2 hover:underline hover:decoration-[var(--gold)] hover:underline-offset-4"
+            href={"/servicos/cerimonial"}
+          >
+            {t("services.planning")}
+          </Link>
+          <Link
+            className="text-3xl lg:text-4xl mb-2 hover:underline hover:decoration-[var(--gold)] hover:underline-offset-4"
+            href={"/servicos/acessoria"}
+          >
             {t("services.consulting")}
-          </p>
-          <p className="text-3xl lg:text-4xl mb-2">
+          </Link>
+          <Link
+            className="text-3xl lg:text-4xl mb-2 hover:underline hover:decoration-[var(--gold)] hover:underline-offset-4"
+            href={"/servicos/celebridades"}
+          >
             {t("services.celebrities")}
-          </p>
-          <p className="text-3xl lg:text-4xl mb-8">
+          </Link>
+          <Link
+            className="text-3xl lg:text-4xl mb-8 hover:underline hover:decoration-[var(--gold)] hover:underline-offset-4"
+            href={"/servicos/destination"}
+          >
             {t("services.destination")}
-          </p>
+          </Link>
           <Link href={`/servicos`}>
             <MainButton>{t("cta")}</MainButton>
           </Link>

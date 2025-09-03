@@ -184,7 +184,33 @@
         "title": "ceremony",
         "description": "On the wedding day, every detail is carefully planned. We hold a prior meeting to define the script, timeline, and ceremony in detail to ensure everything goes as expected. Our team works in strategic areas, coordinating vendors, supervising the setup (which may take days), and accompanying the couple throughout the event. The bride and groom have their own personal assistants, and the parents are assigned 'shadows' to provide full comfort. On the big day, our team includes at least 10 assistants, ensuring flawless execution of every step."
       }
-    }
+    },
+    "buttons": {
+      "learnMore": "LEARN MORE",
+      "whatsappButton": "CHAT ON WHATSAPP"
+    },
+    "assessoria": {
+      "title": "Advisory",
+      "subtitle": "Our advisory starts from scratch, guiding the couple from the venue choice to the big day execution",
+      "description": "In the first meeting, we hold a briefing session to understand the couple’s profile, expectations and priorities. From this, we prepare an investment estimate spreadsheet and schedule visits to suggested venues. Once the space is defined, we create a complete organization timeline. Throughout the process, we hold monthly follow-up meetings, always in a light and enjoyable way — because we believe the couple should enjoy every moment of the planning, not just the wedding day."
+    },
+    "cerimonial": {
+      "title": "Ceremonial",
+      "subtitle": "On the wedding day, every detail is carefully planned",
+      "description": "We hold a prior meeting to review the script, timeline and ceremony to ensure everything runs smoothly. Our team acts in strategic areas, coordinating suppliers, supervising the setup (which can take days) and supporting the couple throughout the event. The bride and groom have their Personal Bride and Personal Groom assistants, and the parents receive dedicated helpers for total comfort. On the big day, our team has at least 10 assistants, ensuring the flawless execution of each stage."
+    },
+    "destination": {
+      "title": "Wedding Destination",
+      "subtitle": "Specialists in Destination Weddings in Rio de Janeiro",
+      "description": "We have extensive experience assisting foreign couples who dream of celebrating their wedding in Brazil, offering total security — from financial control to the choice of ideal venues. We create complete experiences for the couple and their guests, with airport reception, transfers, sightseeing tours and accommodation suggestions through our partnerships with renowned hotels. Our team is fluent in English, Spanish and French, ensuring clear communication at every stage. Schedule a meeting with our commercial team and discover how to make your wedding in Rio an unforgettable experience."
+    },
+    "celebridades": {
+      "title": "Celebrities",
+      "subtitle": "The signature behind star-studded events",
+      "description": "With over 20 years of experience, the Leco Biagioni Office has become a reference among artists, singers, models and Brazilian personalities. We are the choice for those seeking exclusivity, excellence and discretion in unforgettable events. Meet some of the names who trusted our work:"
+    },
+    "back": "Back",
+    "notFound": "Service not found"
   },
 
   "tips": {
