@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/copacabana-palace",
+      "destination": "https://lifecampogrande.com.br/testes/copacabana-palace/"
+    },
+    {
+      "source": "/cristo",
+      "destination": "https://lifecampogrande.com.br/testes/cristo"
+    }
+  ]
+}
