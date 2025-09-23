@@ -11,7 +11,11 @@
     "portfolio": "REALIZAÇÕES",
     "testimonials": "DEPOIMENTOS",
     "tendency": "DICAS",
-    "contact": "CONTATO"
+    "contact": "CONTATO",
+    "consulting": "ASSESSORIA",
+    "planning": "CERIMONIAL",
+    "weddingDestination": "WEDDING DESTINATION",
+    "celebrities": "CELEBRITIES"
   },
 
   "hero": {
@@ -67,8 +71,55 @@
     "title": "DEPOIMENTOS & CLIPPING",
     "items": [
       {
-        "quote": "A equipe do Leco Biagioni foi exatamente a parceira que esperávamos em um wedding planner — especialmente diante dos desafios extras de um casamento.",
-        "author": "Rhaynna & Lucas"
+        "quote": "Leco, obrigada pelas gentilezas, pela atenção tão carinhosa e por entender a alma do que eu queria fazer!",
+        "author": "Erika Januza",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/depoimentos/Erika_Januza_40_0009_resized.jpg",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/depoimentos/Erika_Januza_40_0034_resized.jpg "
+        ]
+      },
+      {
+        "quote": "Nenhuma festa acontece sozinha. Leco é um amigo querido e profissional exemplar, que me ajuda a transformar ideias, às vezes bem ousadas, em realidade. Obrigado, meu amigo, por me ajudar a fazer dos meus 50 anos um sonho vivido!",
+        "author": "Cliente Anônimo",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/depoimentos/C59A3FFC-1FE7-49F6-8543-DA54D7403872.jpg",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/depoimentos/FAF73E1E-8634-4EC7-8EA0-765F34B12AB8.jpg"
+        ]
+      },
+      {
+        "quote": "Já quero voltar para o dia do nosso casamento 😍",
+        "author": "Louhayne & Charles",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6870.png",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6859.JPG"
+        ]
+      },
+      {
+        "quote": "Romário promove XVII Arraiá do Baixola com produção de Leco Biagioni em clima nordestino",
+        "author": "EGO Brazil",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/Romario-dancando-6.jpg",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/romario-e-ivy-2-1536x1024.jpg"
+        ],
+        "link": "https://egobrazil.ig.com.br/romario-promove-xvii-arraia-do-baixola-com-producao-de-leco-biagioni-em-clima-nordestino/"
+      },
+      {
+        "quote": "Diego Hypólito, Stênio Garcia e mais famosos vão ao casamento de André Ramos e Gabriel Monteiro de Castro.",
+        "author": "Revista Quem",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/imagem-do-whatsapp-de-2025-04-19-a-s-13.12.17-a78df09d.jpg",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/imagem-do-whatsapp-de-2025-04-19-a-s-13.12.18-2ebb9d2e.jpg"
+        ],
+        "link": "https://revistaquem.globo.com/google/amp/eventos/casamentos/noticia/2025/04/diego-hypolito-stenio-garcia-e-mais-famosos-vao-ao-casamento-de-andre-ramos-e-gabriel-monteiro-de-castro.ghtml"
+      },
+      {
+        "quote": "O dia 6 de setembro ficará na história. Mais do que um enlace, o casamento de Yamim Lobo e Roberto Jr. foi um marco de representatividade, espiritualidade e resistência. Realizado no Quilombo do Grotão",
+        "author": "Brazilian Times",
+        "photos": [
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/Awure-com-os-noivos-foto-de-Zezinho-300x200.jpeg",
+          "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/clipping/imagem-do-whatsapp-de-2025-04-19-a-s-13.12.17-a78df09d.jpg"
+        ],
+        "link": "https://www.braziliantimes.com/entretenimento/um-casamento-historico-no-quilombo-do-grotao/"
       }
     ],
     "prev": "Anterior",
@@ -77,7 +128,7 @@
 
   "tendency": {
     "title": "DICAS",
-    "button": "ACESSE NOSSAS DICAS"
+    "button": "ACESSE NOSSO BLOG"
   },
 
   "contact": {

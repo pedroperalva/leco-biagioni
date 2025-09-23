@@ -18,6 +18,7 @@ import { useEffect, useState } from "react";
 
 export function Navbar() {
   const scrollItems = menuItems.filter((item) => item.href.startsWith("#"));
+  const redirectItems = menuItems.filter((item) => !item.href.startsWith("#"));
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -25,7 +26,7 @@ export function Navbar() {
 
   const [showBg, setShowBg] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // NOVO: controlar se o menu está aberto
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToHash = (hash: string) => {
     const element = document.querySelector(hash);
@@ -117,6 +118,17 @@ export function Navbar() {
                     <a
                       href={item.href}
                       onClick={(e) => handleScroll(e, item.href)}
+                      className="flex justify-between w-full font-bold"
+                    >
+                      {t(item.label)}
+                    </a>
+                  </DropdownMenuItem>
+                ))}
+                <div className="border-t border-[var(--gold)] my-2 mx-2" />
+                {redirectItems.map((item) => (
+                  <DropdownMenuItem key={item.label}>
+                    <a
+                      href={item.href}
                       className="flex justify-between w-full font-bold"
                     >
                       {t(item.label)}
