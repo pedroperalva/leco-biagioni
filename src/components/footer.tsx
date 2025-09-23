@@ -11,6 +11,8 @@ export function Footer() {
   const router = useRouter();
   const pathname = usePathname();
   const t = useTranslations("menu");
+  const scrollItems = menuItems.filter((item) => item.href.startsWith("#"));
+  const redirectItems = menuItems.filter((item) => !item.href.startsWith("#"));
 
   const scrollToHash = (hash: string) => {
     const element = document.querySelector(hash);
@@ -48,11 +50,20 @@ export function Footer() {
             className="w-[200px] self-center md:self-start"
           />
           <div className="grid grid-cols-2 grid-rows-3 gap-y-3 gap-x-6 max-w-[275px] md:py-0 text-center md:text-start">
-            {menuItems.map((item) => (
+            {scrollItems.map((item) => (
               <a
                 key={item.label}
                 onClick={(e) => handleScroll(e, item.href)}
-                className="text-[#7A7A7A] text-sm transition-colors duration-200 hover:underline font-bold"
+                className="text-[#7A7A7A] text-sm transition-colors duration-200 hover:underline font-bold cursor-pointer"
+              >
+                {t(item.label)}
+              </a>
+            ))}
+            {redirectItems.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-[#7A7A7A] text-sm transition-colors duration-200 hover:underline font-bold cursor-pointer"
               >
                 {t(item.label)}
               </a>

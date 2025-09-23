@@ -1,12 +1,12 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { MainButton } from "../buttons/mainButton";
 import { Link } from "@/i18n/navigation";
 
 export function SectionTendency() {
   const t = useTranslations("tendency");
-  const locale = useLocale();
+
   return (
     <section className="w-full flex flex-col items-center mt-16" id="tendency">
       <h1 className="text-4xl text-black self-center text-center">
@@ -18,7 +18,7 @@ export function SectionTendency() {
         className="w-[870px] my-16"
         loading="lazy"
       />
-      <Link href={`${locale}/dicas`}>
+      <Link href={"https://bloglecobiagioni.com/"} target="_blank">
         <MainButton>{t("button")}</MainButton>
       </Link>
     </section>
