@@ -8,6 +8,6 @@ export const menuItems = [
   { label: "contact", href: "#contact" },
   { label: "consulting", href: "/servicos/assessoria" },
   { label: "planning", href: "/servicos/cerimonial" },
-  { label: "weddingDestination", href: "/servicos/destination" },
   { label: "celebrities", href: "/servicos/celebridades" },
+  { label: "weddingDestination", href: "/servicos/destination" },
 ];
