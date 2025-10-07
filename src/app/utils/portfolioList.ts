@@ -89,4 +89,22 @@ export const getPortfolioList = (t: (key: string) => string) => [
     subtitle: t("portfolioList.catharina.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Catharina-15-anos-Jockey-Pareo/Catharina__0597.JPEG`,
   },
+  {
+    folder: "Aninha-e-Vicky-terras-altas-maua",
+    title: t("portfolioList.anaVictoria.title"),
+    subtitle: t("portfolioList.anaVictoria.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Aninha-e-Vicky-terras-altas-maua/DSCF8317.JPEG`,
+  },
+  {
+    folder: "Andre-e-gabriel-residencia",
+    title: t("portfolioList.andreGabriel.title"),
+    subtitle: t("portfolioList.andreGabriel.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Andre-e-gabriel-residencia/5d824318-83a8-4eef-9861-6d297c0a91fd.JPG`,
+  },
+  {
+    folder: "Yamim-e-Roberto-Quilombo-do-Grotao",
+    title: t("portfolioList.yamim.title"),
+    subtitle: t("portfolioList.yamim.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Yamim-e-Roberto-Quilombo-do-Grotao/b1a90374-dff3-4eec-8a17-c11f4cff095e.JPG`,
+  },
 ];
