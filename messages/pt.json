@@ -68,7 +68,7 @@
   },
 
   "testimonials": {
-    "title": "DEPOIMENTOS & CLIPPING",
+    "title": "DEPOIMENTOS",
     "items": [
       {
         "quote": "Leco, obrigada pelas gentilezas, pela atenção tão carinhosa e por entender a alma do que eu queria fazer!",
@@ -93,7 +93,16 @@
           "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6870.png",
           "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6859.JPG"
         ]
-      },
+      }
+    ],
+    "prev": "Anterior",
+    "next": "Próximo"
+  },
+
+  "clipping": {
+    "title": "CLIPPING",
+    "viewArticle": "Ver matéria",
+    "items": [
       {
         "quote": "Romário promove XVII Arraiá do Baixola com produção de Leco Biagioni em clima nordestino",
         "author": "EGO Brazil",
@@ -210,6 +219,22 @@
     "anaVictoria": {
       "title": "ANINHA & VICKY",
       "subtitle": "CASAMENTO ANINHA & VICKY - TERRAS ALTAS MAUA"
+    },
+    "romario": {
+      "title": "ROMÁRIO 60 ANOS",
+      "subtitle": "ANIVERSÁRIO 60 ANOS DO ROMÁRIO"
+    },
+    "gezaryBruno": {
+      "title": "GEZARY & BRUNO",
+      "subtitle": "CASAMENTO GEZARY & BRUNO - ESPELHO DAS ÁGUAS BÚZIOS"
+    },
+    "lucianoHuck": {
+      "title": "LUCIANO HUCK",
+      "subtitle": "CONFRATERNIZAÇÃO DO LUCIANO HUCK"
+    },
+    "mayaraCadu": {
+      "title": "MAYARA & CADU",
+      "subtitle": "CASAMENTO MAYARA & CADU - GRUMARI BEACH GARDEN"
     }
   },
 

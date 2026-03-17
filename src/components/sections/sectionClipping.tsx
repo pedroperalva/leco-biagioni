@@ -4,20 +4,20 @@ import { MainButton } from "../buttons/mainButton";
 import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
 import { motion, AnimatePresence } from "framer-motion";
 
-export function SectionTestimonials() {
-  const t = useTranslations("testimonials");
-  const testimonials = t.raw("items");
+export function SectionClipping() {
+  const t = useTranslations("clipping");
+  const clippings = t.raw("items");
   const [index, setIndex] = useState(0);
 
   const prev = () =>
-    setIndex((i) => (i === 0 ? testimonials.length - 1 : i - 1));
+    setIndex((i) => (i === 0 ? clippings.length - 1 : i - 1));
   const next = () =>
-    setIndex((i) => (i === testimonials.length - 1 ? 0 : i + 1));
+    setIndex((i) => (i === clippings.length - 1 ? 0 : i + 1));
 
-  const testimonial = testimonials[index];
+  const clipping = clippings[index];
 
   return (
-    <section className="w-full flex flex-col" id="testimonials">
+    <section className="w-full flex flex-col" id="clipping">
       <h1 className="text-4xl text-black my-16 self-center text-center">
         {t("title")}
       </h1>
@@ -34,23 +34,31 @@ export function SectionTestimonials() {
             className="flex w-full justify-between absolute top-0 left-0"
           >
             <img
-              src={testimonial.photos[0]}
-              alt={testimonial.author}
+              src={clipping.photos[0]}
+              alt={clipping.author}
               className="w-[200px] object-cover h-[300px] self-end"
             />
             <div className="text-center flex flex-col items-center justify-center max-w-[300px] gap-6 mx-auto">
               <p className="text-black font-semibold mb-2">
-                “{testimonial.quote}”
+                &ldquo;{clipping.quote}&rdquo;
               </p>
               <p className="font-bold text-black text-sm mb-2">
-                {testimonial.author}
+                {clipping.author}
               </p>
+              <a
+                href={clipping.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[var(--gold)] text-white px-4 py-2 shadow-md hover:opacity-90 transition"
+              >
+                {t("viewArticle")}
+              </a>
             </div>
             <div className="flex flex-col justify-between items-center">
-              {testimonial.photos[1] && (
+              {clipping.photos[1] && (
                 <img
-                  src={testimonial.photos[1]}
-                  alt={testimonial.author}
+                  src={clipping.photos[1]}
+                  alt={clipping.author}
                   className="w-[200px] object-cover h-[300px] self-start"
                 />
               )}
@@ -91,15 +99,23 @@ export function SectionTestimonials() {
               </MainButton>
             </div>
             <p className="text-black font-semibold mb-2 max-w-[300px] text-center">
-              “{testimonial.quote}”
+              &ldquo;{clipping.quote}&rdquo;
             </p>
+            <a
+              href={clipping.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[var(--gold)] text-white px-4 py-2 shadow-md hover:opacity-90 transition my-4"
+            >
+              {t("viewArticle")}
+            </a>
             <img
-              src={testimonial.photos[0]}
-              alt={testimonial.author}
+              src={clipping.photos[0]}
+              alt={clipping.author}
               className="max-w-[300px] object-cover h-[300px]"
             />
             <p className="font-bold text-black text-sm mb-2">
-              {testimonial.author}
+              {clipping.author}
             </p>
           </motion.div>
         </AnimatePresence>

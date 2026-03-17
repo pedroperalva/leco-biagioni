@@ -6,7 +6,7 @@ import { SectionHero } from "@/components/sections/sectionHero";
 import { SectionPortfolio } from "@/components/sections/sectionPortfolio";
 import { SectionTendency } from "@/components/sections/sectionTendency";
 import { SectionTestimonials } from "@/components/sections/sectionTestimonials";
-// import { SectionTestimonials } from "@/components/sections/sectionTestimonials";
+import { SectionClipping } from "@/components/sections/sectionClipping";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -47,6 +47,7 @@ export default function Home() {
       <SectionAboutUs />
       <SectionPortfolio />
       <SectionTestimonials />
+      <SectionClipping />
       <SectionTendency />
       <SectionContact />
     </main>

@@ -68,7 +68,7 @@
   },
 
   "testimonials": {
-    "title": "TESTIMONIALS & CLIPPING",
+    "title": "TESTIMONIALS",
     "items": [
       {
         "quote": "Leco, thank you for your kindness, your caring attention, and for understanding the soul of what I wanted to create!",
@@ -93,7 +93,16 @@
           "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6870.png",
           "https://hzksjbnudhswgqmccfnu.supabase.co/storage/v1/object/public/imagens-site-leco/portfolio/casamento-louhayne-e-charles---igreja-sao-francisco-de-paula/IMG_6859.JPG"
         ]
-      },
+      }
+    ],
+    "prev": "Previous",
+    "next": "Next"
+  },
+
+  "clipping": {
+    "title": "CLIPPING",
+    "viewArticle": "View article",
+    "items": [
       {
         "quote": "Romário hosts the XVII Arraiá do Baixola with production by Leco Biagioni in a Northeastern atmosphere",
         "author": "EGO Brazil",
@@ -210,6 +219,22 @@
     "anaVictoria": {
       "title": "ANINHA & VICKY",
       "subtitle": "WEDDING ANINHA & VICKY - TERRAS ALTAS MAUA"
+    },
+    "romario": {
+      "title": "ROMARIO 60TH BIRTHDAY",
+      "subtitle": "ROMARIO'S 60TH BIRTHDAY"
+    },
+    "gezaryBruno": {
+      "title": "GEZARY & BRUNO",
+      "subtitle": "WEDDING GEZARY & BRUNO - ESPELHO DAS AGUAS BUZIOS"
+    },
+    "lucianoHuck": {
+      "title": "LUCIANO HUCK",
+      "subtitle": "LUCIANO HUCK'S YEAR-END PARTY"
+    },
+    "mayaraCadu": {
+      "title": "MAYARA & CADU",
+      "subtitle": "WEDDING MAYARA & CADU - GRUMARI BEACH GARDEN"
     }
   },
 

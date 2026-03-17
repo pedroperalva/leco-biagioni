@@ -107,4 +107,28 @@ export const getPortfolioList = (t: (key: string) => string) => [
     subtitle: t("portfolioList.yamim.subtitle"),
     image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Yamim-e-Roberto-Quilombo-do-Grotao/b1a90374-dff3-4eec-8a17-c11f4cff095e.JPG`,
   },
+  {
+    folder: "Aniversario-60-anos-romario",
+    title: t("portfolioList.romario.title"),
+    subtitle: t("portfolioList.romario.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Aniversario-60-anos-romario/WhatsApp%20Image.39.jpeg`,
+  },
+  {
+    folder: "Casamento-gezary-e-bruno-espelho-das-aguas-buzios",
+    title: t("portfolioList.gezaryBruno.title"),
+    subtitle: t("portfolioList.gezaryBruno.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Casamento-gezary-e-bruno-espelho-das-aguas-buzios/WhatsApp%20Imt%2020.02.54.jpeg`,
+  },
+  {
+    folder: "fim-de-ano-luciano-hulk",
+    title: t("portfolioList.lucianoHuck.title"),
+    subtitle: t("portfolioList.lucianoHuck.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/fim-de-ano-luciano-hulk/20.04.18.jpeg`,
+  },
+  {
+    folder: "Mayara-e-Cadu-Grumari-Beach-Garden",
+    title: t("portfolioList.mayaraCadu.title"),
+    subtitle: t("portfolioList.mayaraCadu.subtitle"),
+    image: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/portfolio/Mayara-e-Cadu-Grumari-Beach-Garden/8.56.06.jpeg`,
+  },
 ];
