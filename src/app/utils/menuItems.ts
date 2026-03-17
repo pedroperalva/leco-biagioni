@@ -4,6 +4,7 @@ export const menuItems = [
   { label: "about", href: "#about" },
   { label: "portfolio", href: "#realizacoes" },
   { label: "testimonials", href: "#testimonials" },
+  { label: "clipping", href: "#clipping" },
   { label: "tendency", href: "#tendency" },
   { label: "contact", href: "#contact" },
   { label: "consulting", href: "/servicos/assessoria" },
