@@ -15,7 +15,7 @@ export function ContactButtons({
         {t("messageButton")}
       </MainButton>
       <a
-        href="https://wa.me/5521999972025"
+        href="https://wa.me/5521982752040"
         target="_blank"
         rel="noopener noreferrer"
       >

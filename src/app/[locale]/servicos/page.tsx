@@ -62,7 +62,7 @@ export default function Servicos() {
                       <MainButton>{t("buttons.learnMore")}</MainButton>
                     </Link>
                     <a
-                      href="https://wa.me/5521999972025"
+                      href="https://wa.me/5521982752040"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
