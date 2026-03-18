@@ -29,7 +29,7 @@ export function ContactForm({
         "service_18tg3sf",
         "template_i05z0an",
         formRef.current,
-        process.env.NEXT_PUBLIC_EMAILJS_KEY
+        process.env.NEXT_PUBLIC_EMAILJS_KEY,
       )
       .then(
         () => {
@@ -42,7 +42,7 @@ export function ContactForm({
         },
         (error: any) => {
           console.error("Erro ao enviar e-mail:", error);
-        }
+        },
       )
       .finally(() => setIsSending(false));
   };
@@ -56,7 +56,7 @@ export function ContactForm({
           className="space-y-4 text-black font-bold"
         >
           <h2 className="text-xl font-bold mb-2 text-center">{t("title")}</h2>
-
+          <input type="hidden" name="title" value={"Site Leco"} />
           <input
             name="name"
             required
